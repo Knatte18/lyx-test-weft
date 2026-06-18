@@ -1,2 +1,4 @@
 # lyx-test-weft
-Weft repo for the lyx-test repo
+
+Weft (overlay) repo for `lyx-test`. Holds `_lyx/` and `_codeguide/`, mirroring the
+host's branch + folder structure. Managed via `lyx weft`; never edited by raw git.
