@@ -1,1 +1,1 @@
-branch_prefix: ${env:LYX_BRANCH_PREFIX:-} # prefix prepended to the slug to form the branch name (e.g. "hanf/"); empty = branch == slug
+branch_prefix: sandbox/ # edited by S4 round-trip
