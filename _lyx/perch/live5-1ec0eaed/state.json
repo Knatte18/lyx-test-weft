@@ -1,0 +1,29 @@
+{
+  "profileHash": "1ec0eaed5ce646a93c233e4b564cc8ebb1327190d4d764a3627df80487553b85",
+  "roundCaps": [
+    2
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 2,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 24,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live5-1ec0eaed\\round-1b-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live5-1ec0eaed\\round-1b-fixer-report.md",
+      "sessionId": "a2aacb24-772c-4a8a-a2ea-eaf71e1adf7a"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live5-1ec0eaed\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live5-1ec0eaed\\round-2-fixer-report.md",
+      "sessionId": "fa827d82-caf2-428f-b1b5-a900a066e788"
+    }
+  ],
+  "outcome": "APPROVED"
+}
