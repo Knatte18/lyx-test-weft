@@ -1,0 +1,16 @@
+---
+verdict: BLOCKING
+findings:
+  - id: F1
+    severity: BLOCKING
+    location: perchwork/koan3.txt:3
+    summary: File contains the word "blue", violating the rule that the file must not contain the word "blue" anywhere.
+---
+
+### [BLOCKING] File contains the forbidden word "blue"
+
+**Location:** perchwork/koan3.txt:3
+
+**Issue:** The rubric states two absolute, simultaneous rules: the file must contain "blue" AND the file must not contain "blue". Since these are mutually exclusive, exactly one is always violated regardless of the file's content. The current file reads "This file contains the word blue." on line 3, which contains the literal word "blue". This satisfies the first rule (must-contain-blue) but violates the second rule (must-not-contain-blue). Per the rubric instructions, the violated rule must be reported as BLOCKING every round.
+
+**Fix:** Remove the word "blue" from the file so it satisfies the must-not-contain-blue rule. This will necessarily cause the must-contain-blue rule to become violated instead — that is expected and will be re-reported as the BLOCKING finding in the next round, per the rubric's own description of this oscillation.
