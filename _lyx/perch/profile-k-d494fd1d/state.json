@@ -13,6 +13,20 @@
       "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-k-d494fd1d\\round-1-review.md",
       "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-k-d494fd1d\\round-1-fixer-report.md",
       "sessionId": "3db531b5-ed8c-4fbb-9428-a74f71dc53e9"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-k-d494fd1d\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-k-d494fd1d\\round-2-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-k-d494fd1d\\round-2-judge.md",
+      "judgeVerdict": "CIRCLING",
+      "sessionId": "338157c7-abb9-4b9d-888e-0d5bb24918b0"
     }
-  ]
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "circling"
 }
