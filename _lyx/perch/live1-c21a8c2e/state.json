@@ -4,5 +4,27 @@
     2,
     3
   ],
-  "rounds": null
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 2,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live1-c21a8c2e\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live1-c21a8c2e\\round-1-fixer-report.md",
+      "sessionId": "2176c1ed-206f-4c25-a4f1-dee192144724"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live1-c21a8c2e\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live1-c21a8c2e\\round-2-fixer-report.md",
+      "sessionId": "df51812d-651b-4e42-a9e0-8023962bbf14"
+    }
+  ],
+  "outcome": "APPROVED"
 }
