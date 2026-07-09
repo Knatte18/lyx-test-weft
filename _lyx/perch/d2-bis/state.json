@@ -3,5 +3,32 @@
   "roundCaps": [
     2
   ],
-  "rounds": null
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\d2-bis\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\d2-bis\\round-1-fixer-report.md",
+      "gatePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\d2-bis\\round-1-gate.md",
+      "gatePassed": false,
+      "sessionId": "93a4c01e-f595-4c6b-943b-56259d4af206"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\d2-bis\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\d2-bis\\round-2-fixer-report.md",
+      "gatePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\d2-bis\\round-2-gate.md",
+      "gatePassed": false,
+      "sessionId": "088f5d39-ba78-43ee-a9a3-d4584300f368"
+    }
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "hard-cap"
 }
