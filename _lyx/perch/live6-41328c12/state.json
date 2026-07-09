@@ -1,0 +1,21 @@
+{
+  "profileHash": "41328c120494f10ca353b78dab9436d49aec1670e4f634955fb2fc57815fc81a",
+  "roundCaps": [
+    1
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live6-41328c12\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live6-41328c12\\round-1-fixer-report.md",
+      "gatePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live6-41328c12\\round-1-gate.md",
+      "gatePassed": true,
+      "sessionId": "b9c5c4aa-9246-4a48-b509-bac954dcfc7b"
+    }
+  ],
+  "outcome": "APPROVED"
+}
