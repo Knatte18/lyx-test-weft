@@ -1,0 +1,33 @@
+{
+  "profileHash": "1f1e8763bcfec21c0f03c485e8775a456c2031aba46b2187dde5ac5d09373d09",
+  "roundCaps": [
+    2,
+    3
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-b-1bc812cf\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-b-1bc812cf\\round-1-fixer-report.md",
+      "sessionId": "26ab21d9-a2d1-4899-b9be-ffdcc0d42f38"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-b-1bc812cf\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-b-1bc812cf\\round-2-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\profile-b-1bc812cf\\round-2-judge.md",
+      "judgeVerdict": "STOP",
+      "sessionId": "89181ee7-e21b-41f1-b7f6-d35488285a9d"
+    }
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "milestone-stop"
+}
