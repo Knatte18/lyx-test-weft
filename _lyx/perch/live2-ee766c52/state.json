@@ -1,0 +1,19 @@
+{
+  "profileHash": "ee766c5265a2afe1c54c2245630083dbbaeb001d24f069e4dff746d1ffa5c65b",
+  "roundCaps": [
+    3,
+    4
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 2,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live2-ee766c52\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\live2-ee766c52\\round-1-fixer-report.md",
+      "sessionId": "d321cb83-c3a7-4eb4-8575-27ad739d30d7"
+    }
+  ]
+}
