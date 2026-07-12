@@ -1,16 +1,17 @@
 {
-  "runGuid": "r4-fix-verify-a2",
-  "planFingerprint": "36c857ea15de8403fc8cbd46ebda7f46a6c9c2a749d9152b6c445a568fed200c",
+  "runGuid": "39875a4d8ce01d8744759d52d3931fe0",
+  "planFingerprint": "6ec626f4a6dd0ae48b5bc94333a72c20072cab1069c94ffae40b22b05a5a32d9",
   "currentBatch": 1,
+  "orchestratorStrand": "b989bf6a787fea7f381b8e9b4d781c87",
   "batches": {
     "1": {
       "slug": "v-slow",
       "startSha": "1c96ef19770bded62d7e8dfd7fc44c9f7950804d",
       "role": "implementer",
-      "strandGuid": "23685afe85a7a6699eb8204c0e67a40e",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\088a8bb2644a37e613cede214216fc1a",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\088a8bb2644a37e613cede214216fc1a\\events.jsonl",
-      "spawnedAt": "2026-07-12T14:43:45Z",
+      "strandGuid": "aac598d8846f6121fe2bacf464ed3766",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\a77da3af8e0176e2acec7a95e1f3acf8",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\a77da3af8e0176e2acec7a95e1f3acf8\\events.jsonl",
+      "spawnedAt": "2026-07-12T14:44:33Z",
       "terminal": false,
       "status": ""
     }
