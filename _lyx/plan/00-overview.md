@@ -3,11 +3,11 @@ format: 2
 approved: true
 ---
 
-# Plan: two quick marker files (orphan-orchestrator probe)
+# Plan: one slow marker batch (fresh-probe)
 
-Two trivial batches, each writing one marker file.
+One batch that runs a mandatory 150-second migration wait before writing its
+marker file.
 
 ## Batch Index
 
-- 01 — q-one (1 card) — create q1.md containing OK
-- 02 — q-two (1 card) — create q2.md containing OK
+- 01 — f-slow (1 card) — run the 150s migration wait, then create f1.md containing OK
