@@ -28,3 +28,5 @@ single line `OKV`, and commit it.
 ## verify:
 
 pwsh -NoProfile -Command "if ((Get-Content v1.md -Raw).Trim() -eq 'OKV') { exit 0 } else { exit 1 }"
+
+<!-- r5-b4 fingerprint bump 1783870431 -->
