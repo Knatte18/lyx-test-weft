@@ -3,12 +3,10 @@ format: 2
 approved: true
 ---
 
-# Plan: one slow batch, one quick batch
+# Plan: one operator-gated batch
 
-Batch 01 simulates a long-running migration (a mandatory 150-second wait)
-before writing its marker file; batch 02 is a quick marker file.
+One batch whose card requires an operator answer before any work may happen.
 
 ## Batch Index
 
-- 01 — slow (1 card) — run the 150s migration wait, then create w1.md containing OK
-- 02 — quick (1 card) — create w2.md containing OK
+- 01 — ask-gate (1 card) — ask the operator for the passphrase before creating a1.md
