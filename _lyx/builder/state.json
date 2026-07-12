@@ -1,30 +1,18 @@
 {
-  "runGuid": "3d9c3f1e988515ad5d49c66edd6965cc",
-  "planFingerprint": "9b6da5c93193236357983cf87c2ea1b46fcdc9d7664b5df564290d735705cc3c",
-  "currentBatch": 0,
-  "orchestratorStrand": "9fb143ae6dc3364a080a69bb2ba657c6",
+  "runGuid": "r4-fix-verify-a2",
+  "planFingerprint": "36c857ea15de8403fc8cbd46ebda7f46a6c9c2a749d9152b6c445a568fed200c",
+  "currentBatch": 1,
   "batches": {
     "1": {
-      "slug": "r-one",
-      "startSha": "fec220f00129c18602774e23cf4c4b89ee8ed603",
+      "slug": "v-slow",
+      "startSha": "1c96ef19770bded62d7e8dfd7fc44c9f7950804d",
       "role": "implementer",
-      "strandGuid": "82e5a2b31d9d398c67d96ad6800c05dd",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\d91ff9a60d23f835d5da42dce0cdbfcb",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\d91ff9a60d23f835d5da42dce0cdbfcb\\events.jsonl",
-      "spawnedAt": "2026-07-12T14:41:15Z",
-      "terminal": true,
-      "status": "done"
-    },
-    "2": {
-      "slug": "r-two",
-      "startSha": "4688dd468051ca3fe1994b57120531cb5735fe6c",
-      "role": "implementer",
-      "strandGuid": "0636a927d70bfb16061797ae000fec68",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\2447e870c014a655d771f9f7fd6b3772",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\2447e870c014a655d771f9f7fd6b3772\\events.jsonl",
-      "spawnedAt": "2026-07-12T14:42:24Z",
-      "terminal": true,
-      "status": "done"
+      "strandGuid": "23685afe85a7a6699eb8204c0e67a40e",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\088a8bb2644a37e613cede214216fc1a",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\088a8bb2644a37e613cede214216fc1a\\events.jsonl",
+      "spawnedAt": "2026-07-12T14:43:45Z",
+      "terminal": false,
+      "status": ""
     }
   },
   "chainStartShas": {}
