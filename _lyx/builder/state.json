@@ -1,7 +1,7 @@
 {
   "runGuid": "1dae2c8fd24bf8eefbab8c9fb1245db7",
   "planFingerprint": "506aea41ed3b51426a9791dfd3a9ac996cbcdeed36d4f3e454e24d41092f838b",
-  "currentBatch": 0,
+  "currentBatch": 2,
   "batches": {
     "1": {
       "slug": "write-alpha",
@@ -13,6 +13,17 @@
       "spawnedAt": "2026-07-12T10:40:13Z",
       "terminal": true,
       "status": "done"
+    },
+    "2": {
+      "slug": "write-beta",
+      "startSha": "b672dacea01647679b61b7b38449dd6a6f8c178c",
+      "role": "implementer",
+      "strandGuid": "93a8307c9e38c89ec3c9ac9412ee7992",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\50a2d1cc8f4ab1a1af394d247351fcc2",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\50a2d1cc8f4ab1a1af394d247351fcc2\\events.jsonl",
+      "spawnedAt": "2026-07-12T10:40:49Z",
+      "terminal": false,
+      "status": ""
     }
   },
   "chainStartShas": {}
