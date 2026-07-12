@@ -1,0 +1,19 @@
+{
+  "runGuid": "fable-r4-a2",
+  "planFingerprint": "2b0b0abaf6ee124891b33e99f51822ebe2668490d689a2adaf38c2e43dff9fad",
+  "currentBatch": 1,
+  "batches": {
+    "1": {
+      "slug": "f-slow",
+      "startSha": "a042444819f64ba26faf860a3c953490e44b1965",
+      "role": "implementer",
+      "strandGuid": "7c9d9ce937af217561780e571a841dee",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7158fd7ad67cbe3d3958f8ec5f357d90",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7158fd7ad67cbe3d3958f8ec5f357d90\\events.jsonl",
+      "spawnedAt": "2026-07-12T14:00:49Z",
+      "terminal": false,
+      "status": ""
+    }
+  },
+  "chainStartShas": {}
+}

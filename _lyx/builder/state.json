@@ -1,16 +1,16 @@
 {
-  "runGuid": "fable-r4-a2",
-  "planFingerprint": "2b0b0abaf6ee124891b33e99f51822ebe2668490d689a2adaf38c2e43dff9fad",
+  "runGuid": "95e3f14b39ab5920df32452964be3af4",
+  "planFingerprint": "7530bffd6a7ad6f0168b28d6b35dc5821782b431f4193c78c3dff6e2f962c9c7",
   "currentBatch": 1,
   "batches": {
     "1": {
       "slug": "f-slow",
       "startSha": "a042444819f64ba26faf860a3c953490e44b1965",
       "role": "implementer",
-      "strandGuid": "7c9d9ce937af217561780e571a841dee",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7158fd7ad67cbe3d3958f8ec5f357d90",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7158fd7ad67cbe3d3958f8ec5f357d90\\events.jsonl",
-      "spawnedAt": "2026-07-12T14:00:49Z",
+      "strandGuid": "7c17726b7744139af53f1bc193ffe3b1",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\ba5ad5ce850a892e97e7350ce19d3e56",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\ba5ad5ce850a892e97e7350ce19d3e56\\events.jsonl",
+      "spawnedAt": "2026-07-12T14:01:49Z",
       "terminal": false,
       "status": ""
     }

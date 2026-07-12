@@ -13,7 +13,7 @@ command FIRST, then create `f1.md` containing the single line `OK`.
 simulates the data migration this batch depends on; do not skip or shorten
 it): `pwsh -NoProfile -Command "Start-Sleep -Seconds 150"`. Only AFTER that
 command has completed, create `f1.md` at the repo root containing exactly the
-single line `OK`, and commit it.
+single line `OKF`, and commit it.
 **Context:** none
 **Edits:** none
 **Creates:**
@@ -27,4 +27,4 @@ single line `OK`, and commit it.
 
 ## verify:
 
-pwsh -NoProfile -Command "if ((Get-Content f1.md -Raw).Trim() -eq 'OK') { exit 0 } else { exit 1 }"
+pwsh -NoProfile -Command "if ((Get-Content f1.md -Raw).Trim() -eq 'OKF') { exit 0 } else { exit 1 }"
