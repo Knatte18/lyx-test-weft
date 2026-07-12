@@ -1,0 +1,4 @@
+batch: 01-stuckv
+status: stuck
+tests: red
+stuck_reason: "verify command `pwsh -NoProfile -Command \"exit 1\"` always exits non-zero by design; attempted re-running it twice (2 self-fix attempts) with no code changes since the batch's own intent states the verify must always fail and not be edited to pass."
