@@ -1,7 +1,7 @@
 {
   "runGuid": "fabler2seedb6",
   "planFingerprint": "6318407b921356d77890107466983c30679c9decfc8726e59bfd3ed463d376ad",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "write-alpha",
@@ -11,8 +11,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\fce8f0ea804770395595a5a7015ac4c0",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\fce8f0ea804770395595a5a7015ac4c0\\events.jsonl",
       "spawnedAt": "2026-07-12T10:43:25Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "stuck"
     }
   },
   "chainStartShas": {}
