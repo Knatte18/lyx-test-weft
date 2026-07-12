@@ -1,0 +1,4 @@
+batch: 01-always-red
+status: stuck
+tests: red
+stuck_reason: "verify: always fails — external gate script unconditionally exits 1 with message 'external gate red: dependency service unavailable (simulated, fails unconditionally)', independent of s1.md content; ran verify twice (2/2 self-fix attempts), both red, no code change could affect the outcome"

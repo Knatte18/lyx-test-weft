@@ -1,7 +1,7 @@
 {
   "runGuid": "fable-r4-b6",
   "planFingerprint": "ce9eca498248093ce98d8e179294dba02cac63948723be57c9c28e5a0f152def",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "always-red",
@@ -11,8 +11,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\30f8025603e9cbfc953c9fbe1f10bec1",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\30f8025603e9cbfc953c9fbe1f10bec1\\events.jsonl",
       "spawnedAt": "2026-07-12T13:42:43Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "stuck"
     }
   },
   "chainStartShas": {}
