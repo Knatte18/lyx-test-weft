@@ -1,7 +1,7 @@
 {
   "runGuid": "cd8c0a9fa2d181d9ff14d7ce27d4ffdf",
   "planFingerprint": "208541296c17208c18d9836ece740cb3e93858324f5e9f7b482d86c2c6b8a16f",
-  "currentBatch": 2,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "q-one",
@@ -22,8 +22,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\58545959369e6fbb7faae0ed4d905680",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\58545959369e6fbb7faae0ed4d905680\\events.jsonl",
       "spawnedAt": "2026-07-12T13:58:49Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done"
     }
   },
   "chainStartShas": {}
