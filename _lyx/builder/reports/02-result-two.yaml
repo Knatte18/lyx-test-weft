@@ -1,0 +1,4 @@
+batch: 02-result-two
+status: done
+tests: green
+stuck_reason: null
