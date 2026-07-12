@@ -1,7 +1,7 @@
 {
   "runGuid": "fabler2seedb2",
   "planFingerprint": "ec94a9af7b49dcce448c2b3d57d65389eb5f5d9c63841f22aa1bccaeb6e01924",
-  "currentBatch": 0,
+  "currentBatch": 2,
   "batches": {
     "1": {
       "slug": "write-alpha",
@@ -13,6 +13,17 @@
       "spawnedAt": "2026-07-12T10:49:50Z",
       "terminal": true,
       "status": "dead"
+    },
+    "2": {
+      "slug": "write-beta",
+      "startSha": "0983600c05904e33d3c9963327ae248c0459454a",
+      "role": "implementer",
+      "strandGuid": "36283d82c54016e74b28bb5b7d837d67",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\40869a5e2ca81ad4c174dadd9ed22988",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\40869a5e2ca81ad4c174dadd9ed22988\\events.jsonl",
+      "spawnedAt": "2026-07-12T10:51:37Z",
+      "terminal": false,
+      "status": ""
     }
   },
   "chainStartShas": {}
