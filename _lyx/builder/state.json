@@ -1,18 +1,18 @@
 {
   "runGuid": "fable-r4-b2b7",
   "planFingerprint": "64ebd8a3348b506d70f1f20d5d6f1750b78928259cfbfb60843b3b0050ae9ba5",
-  "currentBatch": 0,
+  "currentBatch": 1,
   "batches": {
     "1": {
       "slug": "slow",
       "startSha": "c563a93914cc681e0946b2eed5f48193a5636e99",
       "role": "implementer",
-      "strandGuid": "ee425588ee7992a3910d0c81bc17388b",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\b67f10ec2fb524946bd29e4cc5784709",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\b67f10ec2fb524946bd29e4cc5784709\\events.jsonl",
-      "spawnedAt": "2026-07-12T13:47:59Z",
-      "terminal": true,
-      "status": "dead"
+      "strandGuid": "d3d4e35233cf8d62ccd33669f473e2f2",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\bbda585ebb37245871683244b8e09e82",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\bbda585ebb37245871683244b8e09e82\\events.jsonl",
+      "spawnedAt": "2026-07-12T13:48:46Z",
+      "terminal": false,
+      "status": ""
     }
   },
   "chainStartShas": {}
