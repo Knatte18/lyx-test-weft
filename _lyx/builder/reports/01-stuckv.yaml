@@ -1,4 +1,0 @@
-batch: 01-stuckv
-status: stuck
-tests: red
-stuck_reason: "verify command is `pwsh -NoProfile -Command \"exit 1\"`, an unconditional failure with no code path to fix; ran it twice (2 self-fix attempts) and both failed as designed, so stopping per the bound."
