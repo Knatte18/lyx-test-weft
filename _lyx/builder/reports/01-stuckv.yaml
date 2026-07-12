@@ -1,0 +1,4 @@
+batch: 01-stuckv
+status: stuck
+tests: red
+stuck_reason: "verify command is `pwsh -NoProfile -Command \"exit 1\"`, an unconditional failure with no code path to green; card 01.1 explicitly forbids editing verify to make it pass, so no fix is plausible and none was attempted beyond confirming the failure."
