@@ -3,12 +3,11 @@ format: 2
 approved: true
 ---
 
-# Plan: two pause-scenario marker files
+# Plan: one deliberately-stuck batch
 
-Write two fixed-content marker files at the repo root, one per batch, to
-exercise the pause boundary discipline.
+One batch whose verify: command always fails, so the implementer exhausts its
+self-fix cap and reports stuck — the stuck -> recovery ladder scenario.
 
 ## Batch Index
 
-- 01 — pause-one (1 card) — create p1.md containing the single line OK
-- 02 — pause-two (1 card) — create p2.md containing the single line OK
+- 01 — always-red (1 card) — create s1.md; the verify command fails unconditionally
