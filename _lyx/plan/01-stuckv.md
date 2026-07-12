@@ -26,3 +26,5 @@ is expected — do not try to make it pass by editing the verify.
 ## verify:
 
 pwsh -NoProfile -Command "exit 1"
+
+<!-- clearpause probe 1783871232 -->
