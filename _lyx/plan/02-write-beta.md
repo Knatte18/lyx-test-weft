@@ -26,3 +26,5 @@ line `OK-BETA` (plus a trailing newline). Nothing else. Then commit it.
 ## verify:
 
 git cat-file -e HEAD:results/beta.md
+
+B5 fingerprint-shift marker line.
