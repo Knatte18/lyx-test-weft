@@ -1,18 +1,18 @@
 {
   "runGuid": "ba11768ab5f47f00456737964fe40500",
   "planFingerprint": "417c0d0323b234433ab292a96f14d73b55c2a21296758b6eb05ef7426483e4f9",
-  "currentBatch": 0,
+  "currentBatch": 1,
   "batches": {
     "1": {
       "slug": "stuckv",
       "startSha": "d680ed1e532ca4a80fdf6ee305335b089748d7ec",
-      "role": "implementer",
-      "strandGuid": "c6a720222303f147bf82eeaec8b9af5e",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\89246da5f498edbee9072a060349e1df",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\89246da5f498edbee9072a060349e1df\\events.jsonl",
-      "spawnedAt": "2026-07-12T15:43:31Z",
-      "terminal": true,
-      "status": "stuck"
+      "role": "recovery",
+      "strandGuid": "db54236c8a59f2d784c3a79ebd42acfc",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7075f97d35dc0da75ad4630c32b0064d",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7075f97d35dc0da75ad4630c32b0064d\\events.jsonl",
+      "spawnedAt": "2026-07-12T15:44:56Z",
+      "terminal": false,
+      "status": ""
     }
   },
   "chainStartShas": {}
