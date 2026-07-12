@@ -1,7 +1,7 @@
 {
   "runGuid": "fable-r4-b8",
   "planFingerprint": "c56c87e2e68fead9275df89bc7d1b9f9f3cd26609fc045f5e7c8fb6407946c64",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "chain-first",
@@ -11,8 +11,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\d0688e072a518f3136aa183e8a69a32d",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\d0688e072a518f3136aa183e8a69a32d\\events.jsonl",
       "spawnedAt": "2026-07-12T13:54:11Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done"
     }
   },
   "chainStartShas": {
