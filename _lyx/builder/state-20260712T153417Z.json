@@ -1,0 +1,20 @@
+{
+  "runGuid": "39875a4d8ce01d8744759d52d3931fe0",
+  "planFingerprint": "6ec626f4a6dd0ae48b5bc94333a72c20072cab1069c94ffae40b22b05a5a32d9",
+  "currentBatch": 0,
+  "orchestratorStrand": "b989bf6a787fea7f381b8e9b4d781c87",
+  "batches": {
+    "1": {
+      "slug": "v-slow",
+      "startSha": "1c96ef19770bded62d7e8dfd7fc44c9f7950804d",
+      "role": "implementer",
+      "strandGuid": "aac598d8846f6121fe2bacf464ed3766",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\a77da3af8e0176e2acec7a95e1f3acf8",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\a77da3af8e0176e2acec7a95e1f3acf8\\events.jsonl",
+      "spawnedAt": "2026-07-12T14:44:33Z",
+      "terminal": true,
+      "status": "done"
+    }
+  },
+  "chainStartShas": {}
+}
