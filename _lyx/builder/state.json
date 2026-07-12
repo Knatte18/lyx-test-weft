@@ -18,10 +18,10 @@
       "slug": "write-beta",
       "startSha": "0983600c05904e33d3c9963327ae248c0459454a",
       "role": "implementer",
-      "strandGuid": "36283d82c54016e74b28bb5b7d837d67",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\40869a5e2ca81ad4c174dadd9ed22988",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\40869a5e2ca81ad4c174dadd9ed22988\\events.jsonl",
-      "spawnedAt": "2026-07-12T10:51:37Z",
+      "strandGuid": "36253c57559098849bc331ca74b8325a",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\072b7cd8005cd82137336a85900ca2d2",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\072b7cd8005cd82137336a85900ca2d2\\events.jsonl",
+      "spawnedAt": "2026-07-12T10:51:52Z",
       "terminal": false,
       "status": ""
     }
