@@ -1,0 +1,4 @@
+batch: 01-result-one
+status: done
+tests: green
+stuck_reason: null
