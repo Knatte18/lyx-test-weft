@@ -1,18 +1,18 @@
 {
   "runGuid": "fabler2seedb6",
   "planFingerprint": "6318407b921356d77890107466983c30679c9decfc8726e59bfd3ed463d376ad",
-  "currentBatch": 0,
+  "currentBatch": 1,
   "batches": {
     "1": {
       "slug": "write-alpha",
-      "startSha": "fb56e402cd5bff2bab0b047e1a4f8f0631f57643",
-      "role": "implementer",
-      "strandGuid": "cc944b418eeac05e82f3088569801974",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\fce8f0ea804770395595a5a7015ac4c0",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\fce8f0ea804770395595a5a7015ac4c0\\events.jsonl",
-      "spawnedAt": "2026-07-12T10:43:25Z",
-      "terminal": true,
-      "status": "stuck"
+      "startSha": "0983600c05904e33d3c9963327ae248c0459454a",
+      "role": "recovery",
+      "strandGuid": "353797018d8fa608565b06c7de6cb0d4",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\3ffc51da2245c0db1b166ff7c4b26231",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\3ffc51da2245c0db1b166ff7c4b26231\\events.jsonl",
+      "spawnedAt": "2026-07-12T10:46:13Z",
+      "terminal": false,
+      "status": ""
     }
   },
   "chainStartShas": {}
