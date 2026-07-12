@@ -1,7 +1,7 @@
 {
   "runGuid": "78eec49e4b0fa10a9a482ad3323633c3",
   "planFingerprint": "8161a931b64322b40589e49fba72da6035f3d878629720bb53020d8580b48c75",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "first",
@@ -11,8 +11,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7536bc718ca49474ea4c8ee4182d002a",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7536bc718ca49474ea4c8ee4182d002a\\events.jsonl",
       "spawnedAt": "2026-07-12T12:17:08Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done"
     }
   },
   "chainStartShas": {
