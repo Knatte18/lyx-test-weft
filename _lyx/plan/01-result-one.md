@@ -24,4 +24,4 @@ line `OK` (three bytes: O, K, newline). Commit it.
 
 ## verify:
 
-pwsh -NoProfile -Command "if ((Get-Content result1.md -Raw).Trim() -eq 'OK') { exit 0 } else { Write-Output 'result1.md content mismatch'; exit 1 }"
+pwsh -NoProfile -Command "if ((Get-Content result1.md -Raw).Trim() -eq 'OK2') { exit 0 } else { Write-Output 'result1.md content mismatch'; exit 1 }"
