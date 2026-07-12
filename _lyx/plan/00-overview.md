@@ -3,14 +3,12 @@ format: 2
 approved: true
 ---
 
-# Plan: sandbox builder suite P2 — guaranteed-stuck batch plus one trivial batch
+# Plan: chain restart test
 
-Batch 01 attempts a trivial file write but carries a verify: command that can
-never pass (it asks git whether the empty tree contains a file), so its
-implementer must exhaust its self-fix attempts and report stuck. Batch 02 is
-the trivial beta marker, kept for pause-boundary checks.
+A two-batch deferred-verify chain that writes two result files. Batch 01 is a
+deferred-verify chain intermediate; batch 02 is the chain end that runs the real verify.
 
 ## Batch Index
 
-- 01 — write-alpha (1 card) — create results/gamma.md, then fail an unfixable verify and report stuck
-- 02 — write-beta (1 card) — create results/beta.md containing the single line OK-BETA
+- 01 — first (1 card) — write result1 as a deferred-verify chain intermediate
+- 02 — second (1 card) — write result2 and run the chain verify
