@@ -1,21 +1,7 @@
 {
-  "runGuid": "opus-r3-fixverify",
-  "planFingerprint": "8161a931b64322b40589e49fba72da6035f3d878629720bb53020d8580b48c75",
-  "currentBatch": 1,
-  "batches": {
-    "1": {
-      "slug": "first",
-      "startSha": "6f07a4e489bf6a690e67c40ba4ad86e8e943c3c3",
-      "role": "implementer",
-      "strandGuid": "cd7880dda44f2fd1c1c792c49cf301fe",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\e123b1c3420be83c359870eaafe8924c",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\e123b1c3420be83c359870eaafe8924c\\events.jsonl",
-      "spawnedAt": "2026-07-12T12:32:55Z",
-      "terminal": false,
-      "status": ""
-    }
-  },
-  "chainStartShas": {
-    "2": "6f07a4e489bf6a690e67c40ba4ad86e8e943c3c3"
-  }
+  "runGuid": "1fc301d6b3ee1e863d51e8c5cc54d32e",
+  "planFingerprint": "725ab5e8dc0683505921834106b815568a52015f1a1ae1ccfbd8b9018e679a2e",
+  "currentBatch": 0,
+  "batches": {},
+  "chainStartShas": {}
 }

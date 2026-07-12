@@ -3,12 +3,12 @@ format: 2
 approved: true
 ---
 
-# Plan: chain restart test
+# Plan: two trivial result files
 
-A two-batch deferred-verify chain that writes two result files. Batch 01 is a
-deferred-verify chain intermediate; batch 02 is the chain end that runs the real verify.
+Write two fixed-content marker files at the repo root, one per batch, to
+exercise the builder batch loop end to end.
 
 ## Batch Index
 
-- 01 — first (1 card) — write result1 as a deferred-verify chain intermediate
-- 02 — second (1 card) — write result2 and run the chain verify
+- 01 — result-one (1 card) — create result1.md containing the single line OK
+- 02 — result-two (1 card) — create result2.md containing the single line OK
