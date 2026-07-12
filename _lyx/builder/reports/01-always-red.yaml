@@ -1,0 +1,4 @@
+batch: 01-always-red
+status: stuck
+tests: red
+stuck_reason: "verify: command fails unconditionally (simulated external gate: 'dependency service unavailable') regardless of file content; ran verify twice (no fix possible since the gate is independent of s1.md's content, which already matches spec) and it remained red both times."
