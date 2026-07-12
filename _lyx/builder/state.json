@@ -1,21 +1,21 @@
 {
-  "runGuid": "opus-r3-chain-test",
+  "runGuid": "78eec49e4b0fa10a9a482ad3323633c3",
   "planFingerprint": "8161a931b64322b40589e49fba72da6035f3d878629720bb53020d8580b48c75",
-  "currentBatch": 2,
+  "currentBatch": 1,
   "batches": {
-    "2": {
-      "slug": "second",
-      "startSha": "d9e5e66fdd3642141b6c477a2207590d44e49679",
+    "1": {
+      "slug": "first",
+      "startSha": "9747d3fd5ec447f2f2987a8782c479cad9ba43dd",
       "role": "implementer",
-      "strandGuid": "9d1cc37762b2042c8d7fc7017570f03b",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7c5eafd25bc35540dff25db7783d10f5",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7c5eafd25bc35540dff25db7783d10f5\\events.jsonl",
-      "spawnedAt": "2026-07-12T12:14:35Z",
+      "strandGuid": "071628da74eb947b3f975c3bae23e405",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7536bc718ca49474ea4c8ee4182d002a",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7536bc718ca49474ea4c8ee4182d002a\\events.jsonl",
+      "spawnedAt": "2026-07-12T12:17:08Z",
       "terminal": false,
       "status": ""
     }
   },
   "chainStartShas": {
-    "2": "d9e5e66fdd3642141b6c477a2207590d44e49679"
+    "2": "9747d3fd5ec447f2f2987a8782c479cad9ba43dd"
   }
 }
