@@ -2,7 +2,7 @@
 
 ## Intent
 
-Create `result1.md` at the repo root containing exactly the single line `OK`.
+Create `result1.md` at the repo root containing exactly the single line `OK2`.
 Stand-alone: after this batch the file exists and is committed.
 
 ## Scope
@@ -14,7 +14,7 @@ Stand-alone: after this batch the file exists and is committed.
 ### Card 01.1 — create result1.md
 
 **What:** Create `result1.md` at the repo root containing exactly the single
-line `OK` (three bytes: O, K, newline). Commit it.
+line `OK2`. Commit it.
 **Context:** none
 **Edits:** none
 **Creates:**
