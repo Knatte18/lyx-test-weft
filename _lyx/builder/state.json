@@ -1,18 +1,18 @@
 {
   "runGuid": "fable-r4-b6",
   "planFingerprint": "ce9eca498248093ce98d8e179294dba02cac63948723be57c9c28e5a0f152def",
-  "currentBatch": 0,
+  "currentBatch": 1,
   "batches": {
     "1": {
       "slug": "always-red",
-      "startSha": "4283d62d13f47fac7d2dca248d8579607150cbc8",
-      "role": "implementer",
-      "strandGuid": "db70b0920bf1f68eb126797f8bfb0f9e",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\f1f3cc06b2055ddb57f7f36849f718b1",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\f1f3cc06b2055ddb57f7f36849f718b1\\events.jsonl",
-      "spawnedAt": "2026-07-12T13:41:47Z",
-      "terminal": true,
-      "status": "stuck"
+      "startSha": "c901bbd063a12228772eb5c9f289ac09904b5bbf",
+      "role": "recovery",
+      "strandGuid": "225a8a0f5402dfc4818ca13c488ad0e4",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\30f8025603e9cbfc953c9fbe1f10bec1",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\30f8025603e9cbfc953c9fbe1f10bec1\\events.jsonl",
+      "spawnedAt": "2026-07-12T13:42:43Z",
+      "terminal": false,
+      "status": ""
     }
   },
   "chainStartShas": {}
