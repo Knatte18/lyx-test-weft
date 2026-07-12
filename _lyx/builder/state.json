@@ -1,7 +1,7 @@
 {
   "runGuid": "opus-r3-fixverify",
   "planFingerprint": "8161a931b64322b40589e49fba72da6035f3d878629720bb53020d8580b48c75",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "first",
@@ -11,8 +11,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\720642f82f84c477e3a9335582634228",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\720642f82f84c477e3a9335582634228\\events.jsonl",
       "spawnedAt": "2026-07-12T12:32:16Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done"
     }
   },
   "chainStartShas": {
