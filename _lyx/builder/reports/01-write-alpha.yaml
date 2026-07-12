@@ -1,0 +1,4 @@
+batch: 01-write-alpha
+status: stuck
+tests: red
+stuck_reason: "verify: `git cat-file -e 4b825dc642cb6eb9a060e54bf8d69288fbee4904:unfixable-verify-sentinel` always fails (path does not exist error, exit 128) because 4b825dc642cb6eb9a060e54bf8d69288fbee4904 is git's well-known empty-tree hash, which can never contain any file regardless of commits made; ran the exact command twice (both self-fix attempts) with identical failure, and confirmed card 01.1 is already correctly implemented (results/gamma.md contains exactly \"OK-GAMMA\\n\", committed as 0983600 \"01.1: add results/gamma.md marker\")."
