@@ -1,7 +1,19 @@
 {
   "runGuid": "1fc301d6b3ee1e863d51e8c5cc54d32e",
   "planFingerprint": "725ab5e8dc0683505921834106b815568a52015f1a1ae1ccfbd8b9018e679a2e",
-  "currentBatch": 0,
-  "batches": {},
+  "currentBatch": 1,
+  "batches": {
+    "1": {
+      "slug": "result-one",
+      "startSha": "d9e5e66fdd3642141b6c477a2207590d44e49679",
+      "role": "implementer",
+      "strandGuid": "54f92e82c79bd1e880c2a3f7ccdbb086",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7ce4f21478f0e5f7264332306d987378",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\7ce4f21478f0e5f7264332306d987378\\events.jsonl",
+      "spawnedAt": "2026-07-12T13:32:27Z",
+      "terminal": false,
+      "status": ""
+    }
+  },
   "chainStartShas": {}
 }
