@@ -1,7 +1,7 @@
 {
   "runGuid": "fable-r4-b2b7",
   "planFingerprint": "64ebd8a3348b506d70f1f20d5d6f1750b78928259cfbfb60843b3b0050ae9ba5",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "slow",
@@ -11,8 +11,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\bbda585ebb37245871683244b8e09e82",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\bbda585ebb37245871683244b8e09e82\\events.jsonl",
       "spawnedAt": "2026-07-12T13:48:46Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done"
     }
   },
   "chainStartShas": {}
