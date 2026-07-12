@@ -1,7 +1,7 @@
 {
   "runGuid": "fable-r4-asking",
   "planFingerprint": "1be6cec566502818aeac8b27949b3bb7a5166081b60a9ccc96daf061ebd57c09",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "ask-gate",
@@ -11,8 +11,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\1f70cdb0797c97dd005b633d4e5f7118",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\1f70cdb0797c97dd005b633d4e5f7118\\events.jsonl",
       "spawnedAt": "2026-07-12T13:52:51Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "dead"
     }
   },
   "chainStartShas": {}
