@@ -1,7 +1,7 @@
 {
   "runGuid": "0fe063d313fb0e272a6f3c2761fb52dc",
   "planFingerprint": "3c231ce4f15401655e6fb88e4ebe00b0241277ff00bf553a0da71ac65d2910f5",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "write-alpha",
@@ -11,8 +11,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\213655dd5246850fca077e9d7bfe50f8",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\213655dd5246850fca077e9d7bfe50f8\\events.jsonl",
       "spawnedAt": "2026-07-12T10:37:51Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done"
     }
   },
   "chainStartShas": {}
