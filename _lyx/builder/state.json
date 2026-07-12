@@ -1,19 +1,21 @@
 {
-  "runGuid": "fable-r4-asking",
-  "planFingerprint": "1be6cec566502818aeac8b27949b3bb7a5166081b60a9ccc96daf061ebd57c09",
-  "currentBatch": 0,
+  "runGuid": "fable-r4-b8",
+  "planFingerprint": "c56c87e2e68fead9275df89bc7d1b9f9f3cd26609fc045f5e7c8fb6407946c64",
+  "currentBatch": 1,
   "batches": {
     "1": {
-      "slug": "ask-gate",
+      "slug": "chain-first",
       "startSha": "c563a93914cc681e0946b2eed5f48193a5636e99",
       "role": "implementer",
-      "strandGuid": "898206eb8bddf8753b539255b42fc93e",
-      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\1f70cdb0797c97dd005b633d4e5f7118",
-      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\1f70cdb0797c97dd005b633d4e5f7118\\events.jsonl",
-      "spawnedAt": "2026-07-12T13:52:51Z",
-      "terminal": true,
-      "status": "dead"
+      "strandGuid": "b3b182a1c6a2753210979ea1b243f332",
+      "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\d0688e072a518f3136aa183e8a69a32d",
+      "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\d0688e072a518f3136aa183e8a69a32d\\events.jsonl",
+      "spawnedAt": "2026-07-12T13:54:11Z",
+      "terminal": false,
+      "status": ""
     }
   },
-  "chainStartShas": {}
+  "chainStartShas": {
+    "2": "c563a93914cc681e0946b2eed5f48193a5636e99"
+  }
 }
