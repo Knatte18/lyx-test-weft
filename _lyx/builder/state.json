@@ -1,7 +1,7 @@
 {
   "runGuid": "fable-r4-b3",
   "planFingerprint": "9d9ad2e0ae0842fa734253c835fbc512aca13938051162282b90b6c544d6e220",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "batches": {
     "1": {
       "slug": "pause-one",
@@ -11,8 +11,8 @@
       "shuttleRunDir": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\8dc84cf85915007f319b6072a082377f",
       "eventsPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\.lyx\\shuttle\\8dc84cf85915007f319b6072a082377f\\events.jsonl",
       "spawnedAt": "2026-07-12T13:38:22Z",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done"
     }
   },
   "chainStartShas": {}
