@@ -3,11 +3,11 @@ format: 2
 approved: true
 ---
 
-# Plan: one slow marker batch (fresh re-verify)
+# Plan: one always-stuck batch (r5 B6)
 
-One batch that runs a mandatory 150-second migration wait before writing its
-marker file.
+One batch whose verify command always fails, so the implementer exhausts its
+self-fix cap and reports stuck.
 
 ## Batch Index
 
-- 01 — v-slow (1 card) — run the 150s migration wait, then create v1.md containing OK
+- 01 — stuckv (1 card) — create s1r5.md then run a verify that always fails
