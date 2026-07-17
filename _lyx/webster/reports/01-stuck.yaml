@@ -1,0 +1,4 @@
+batch: 01-stuck
+status: stuck
+tests: red
+stuck_reason: "verify command 'bash -c \"exit 1\"' always exits non-zero by design; card explicitly forbids editing verify to make it pass. Tried re-running verify twice (2/2 self-fix attempts) with no code change possible; still red."
