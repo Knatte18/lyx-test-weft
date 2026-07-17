@@ -1,0 +1,3 @@
+outcome: stuck
+stuck_reason: "batch 01-stuck: verify command `bash -c \"exit 1\"` exits non-zero unconditionally by design; recover-batch also returned terminal status stuck with no plausible code-level fix"
+batches_done: 0
