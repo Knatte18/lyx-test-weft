@@ -1,30 +1,21 @@
 {
   "runGuid": "54e70129c172adf246e10083f3eca677",
   "planFingerprint": "d931ac4a202aab8aad105db44e85ca849c7698a686f5b88a8783db4a5aba7fea",
-  "currentBatch": 0,
+  "currentBatch": 1,
   "masterStrand": "317041a28ad9ea482facc74228c2ab05",
   "masterSessionId": "2a8a22a6-9ea1-4300-9c3a-95926115d81e",
   "assertedModel": "sonnet",
   "batches": {
     "1": {
       "slug": "stuck",
-      "startSha": "56b0ef96ed817543a8638dfe3e30a4eb759b82bb",
-      "kind": "fork",
-      "spawnedAt": "2026-07-17T17:41:35Z",
-      "sessionId": "2a8a22a6-9ea1-4300-9c3a-95926115d81e",
-      "terminal": true,
-      "status": "stuck",
-      "digest": {
-        "batch": "01-stuck",
-        "status": "stuck",
-        "tests": "red",
-        "stuck_reason": "verify command 'bash -c \"exit 1\"' always exits non-zero by design; card explicitly forbids editing verify to make it pass. Tried re-running verify twice (2/2 self-fix attempts) with no code change possible; still red.",
-        "files_changed": 1,
-        "dirty": false
-      },
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/2a8a22a6-9ea1-4300-9c3a-95926115d81e/subagents/agent-a2acbfbe28c158253.jsonl"
-      ]
+      "startSha": "858650018708c953f3b1777e259a54b64ba07374",
+      "kind": "recovery",
+      "spawnedAt": "2026-07-17T17:42:04Z",
+      "terminal": false,
+      "status": "",
+      "strandGuid": "5a3f7552fd08ea1025a23bc055404c32",
+      "shuttleRunDir": "/home/knatte/Code/lyx-test-HUB/lyx-test/.lyx/shuttle/604243dbe4b19230663c5f1667c12f06",
+      "eventsPath": "/home/knatte/Code/lyx-test-HUB/lyx-test/.lyx/shuttle/604243dbe4b19230663c5f1667c12f06/events.jsonl"
     }
   },
   "chainStartShas": {},
