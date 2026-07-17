@@ -1,0 +1,4 @@
+batch: 01-stuck
+status: stuck
+tests: red
+stuck_reason: "verify command `bash -c \"exit 1\"` exits non-zero unconditionally and by design; card 01.1 forbids editing the verify to pass, so no code-level fix is plausible. wr4stuck.md is already created and committed (commit 8586500), so the failure is purely the always-red verify, not a missing card."
