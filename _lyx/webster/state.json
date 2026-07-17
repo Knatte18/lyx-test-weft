@@ -1,53 +1,20 @@
 {
-  "runGuid": "e355294c70ac2698c756ec0499a5d85c",
-  "planFingerprint": "9edaacb2676a2589ca6b8e78f8546468949f2a81f89dced623acccc63a7fbbdd",
-  "currentBatch": 0,
-  "masterStrand": "eddea96d2fdfcf7821f48530fb10197f",
-  "masterSessionId": "9e763f3b-f184-436a-981c-f5d3fe9b64f0",
+  "runGuid": "54e70129c172adf246e10083f3eca677",
+  "planFingerprint": "d931ac4a202aab8aad105db44e85ca849c7698a686f5b88a8783db4a5aba7fea",
+  "currentBatch": 1,
+  "masterStrand": "317041a28ad9ea482facc74228c2ab05",
+  "masterSessionId": "2a8a22a6-9ea1-4300-9c3a-95926115d81e",
   "assertedModel": "sonnet",
   "batches": {
     "1": {
-      "slug": "first",
-      "startSha": "d9e5e66fdd3642141b6c477a2207590d44e49679",
+      "slug": "stuck",
+      "startSha": "56b0ef96ed817543a8638dfe3e30a4eb759b82bb",
       "kind": "fork",
-      "spawnedAt": "2026-07-17T17:37:13Z",
-      "sessionId": "9e763f3b-f184-436a-981c-f5d3fe9b64f0",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "01-first",
-        "status": "done",
-        "tests": "green",
-        "files_changed": 1,
-        "dirty": false
-      },
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/9e763f3b-f184-436a-981c-f5d3fe9b64f0/subagents/agent-a4816529e2b4001b3.jsonl"
-      ]
-    },
-    "2": {
-      "slug": "second",
-      "startSha": "a53648308841806593556476aa224475b43abd83",
-      "kind": "fork",
-      "spawnedAt": "2026-07-17T17:37:47Z",
-      "sessionId": "9e763f3b-f184-436a-981c-f5d3fe9b64f0",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "02-second",
-        "status": "done",
-        "tests": "green",
-        "files_changed": 1,
-        "dirty": false
-      },
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/9e763f3b-f184-436a-981c-f5d3fe9b64f0/subagents/agent-a272e76613399262d.jsonl"
-      ]
+      "spawnedAt": "2026-07-17T17:41:35Z",
+      "sessionId": "2a8a22a6-9ea1-4300-9c3a-95926115d81e",
+      "terminal": false,
+      "status": ""
     }
   },
-  "chainStartShas": {},
-  "seenForkTranscripts": [
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/9e763f3b-f184-436a-981c-f5d3fe9b64f0/subagents/agent-a4816529e2b4001b3.jsonl",
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/9e763f3b-f184-436a-981c-f5d3fe9b64f0/subagents/agent-a272e76613399262d.jsonl"
-  ]
+  "chainStartShas": {}
 }

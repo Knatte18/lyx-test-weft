@@ -3,13 +3,12 @@ format: 2
 approved: true
 ---
 
-# Plan: two trivial marker batches (webster opus-r4 W1)
+# Plan: one always-stuck batch (webster opus-r4 recovery)
 
-Two independent batches, each creating a single marker file and committing it,
-with a verify command that always passes. Exercises the fork loop end to end,
-digest carry-forward, the run-exit audit, and the summary/outcome gate.
+One batch whose verify command always fails, so the fork exhausts its self-fix
+cap and reports stuck — forcing Master to escalate via recover-batch to a cold
+recovery strand.
 
 ## Batch Index
 
-- 01 — first (1 card) — create wr4a.md then a verify that always passes
-- 02 — second (1 card) — create wr4b.md then a verify that always passes
+- 01 — stuck (1 card) — create wr4stuck.md then a verify that always fails
