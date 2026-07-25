@@ -1,9 +1,9 @@
 {
   "runGuid": "3ffb6bc75a1360749062f5ac077651b0",
   "planFingerprint": "1f9bf162918da610e11458772dfe5b33ac9975f8021b810e4c040ca1f92bb3cf",
-  "currentBatch": 0,
-  "masterStrand": "1990735f36541814e323068a1cb32515",
-  "masterSessionId": "07630880-9e90-4f20-bac3-03f41f095269",
+  "currentBatch": 2,
+  "masterStrand": "e7a8fc44945b86a479fdd931adb9fb0c",
+  "masterSessionId": "6b29b2fa-442e-4299-a439-b41af9cfd612",
   "assertedModel": "sonnet",
   "batches": {
     "1": {
@@ -25,6 +25,15 @@
       "forkTranscripts": [
         "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/07630880-9e90-4f20-bac3-03f41f095269/subagents/agent-a56a18365356e91de.jsonl"
       ]
+    },
+    "2": {
+      "slug": "bad-plant",
+      "startSha": "fd407ef053ef7b098f54582c2e61418ab6029b83",
+      "kind": "fork",
+      "spawnedAt": "2026-07-25T19:12:30Z",
+      "sessionId": "6b29b2fa-442e-4299-a439-b41af9cfd612",
+      "terminal": false,
+      "status": ""
     }
   },
   "seenForkTranscripts": [
