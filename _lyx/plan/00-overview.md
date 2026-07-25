@@ -3,10 +3,11 @@ format: 3
 approved: true
 ---
 
-# Plan: webster opus-r2 post-fix refusal probe
+# Plan: fable-r3 happy-path probe
 
-One trivial marker card.
+Two trivial marker cards driven end-to-end by one Master session.
 
 ## Card Index
 
-1 — mark — create wr2pf.md marker
+1 — alpha — create r3a.md marker
+2 — beta — create r3b.md marker
