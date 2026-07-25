@@ -3,11 +3,11 @@ format: 3
 approved: true
 ---
 
-# Plan: fable-r3 early-crash probe two
+# Plan: fable-r3 post-fix render probe
 
-One trivial marker card; Master is killed right after begin-batch, before any
-report exists, then the run is resumed and must re-drive the batch fresh.
+One card with multi-line What prose and a pinned Commit subject, verifying both
+now reach the rendered fork prompt and the implementer's commit.
 
 ## Card Index
 
-1 — lazarus2 — create r3e.md marker
+1 — render-probe — create r3f.md with pinned commit subject
