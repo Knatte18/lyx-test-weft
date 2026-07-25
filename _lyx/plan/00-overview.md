@@ -3,11 +3,11 @@ format: 3
 approved: true
 ---
 
-# Plan: fable-r3 crash-window probe
+# Plan: fable-r3 early-crash probe
 
-One trivial marker card; Master is killed between the fork's report landing and
-record-batch, then the run is resumed.
+One trivial marker card; Master is killed right after begin-batch, before any
+report exists, then the run is resumed and must re-drive the batch fresh.
 
 ## Card Index
 
-1 — phoenix — create r3c.md marker
+1 — lazarus — create r3d.md marker
