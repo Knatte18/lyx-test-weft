@@ -1,33 +1,19 @@
 {
-  "runGuid": "b6901aa21084f5198f3cbf381982fb30",
-  "planFingerprint": "4c6d8fdac14d540e37b42538dc3002bc5b3fa6ce841038d7d66c43c58f2e17ef",
-  "currentBatch": 0,
-  "masterStrand": "517649604e316d21783dcd0450792236",
-  "masterSessionId": "7f50c1c3-c18b-4fdd-b5c1-4f4ce00ff173",
+  "runGuid": "0347f5f53fdbcaa0138e813ac9a0a765",
+  "planFingerprint": "f9f6ad4063c874912ec83d5da8daff3a963edbe87739c14d143b185d0556e3a4",
+  "currentBatch": 1,
+  "masterStrand": "73756f4c39cb492dca97a4061ef6e662",
+  "masterSessionId": "19783e18-56b2-4e8e-9202-5951cd644e36",
   "assertedModel": "sonnet",
   "batches": {
     "1": {
-      "slug": "lazarus",
-      "startSha": "5515f0a5be9c7c478d966e64901ea12e24a5acc1",
+      "slug": "lazarus2",
+      "startSha": "a2b91f2c29b7e33a78afb2effdaa45579e62a7e3",
       "kind": "fork",
-      "spawnedAt": "2026-07-25T19:20:32Z",
-      "sessionId": "286d21b7-1aa9-4fd8-a11d-6a3e2c4474a0",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "01-lazarus",
-        "status": "done",
-        "head_sha": "ba87013259f08c06f095e1f9d1edb9a07f406e39"
-      },
-      "cardShas": [
-        "ba87013259f08c06f095e1f9d1edb9a07f406e39"
-      ],
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/286d21b7-1aa9-4fd8-a11d-6a3e2c4474a0/subagents/agent-a082ca6b8cdf4ad35.jsonl"
-      ]
+      "spawnedAt": "2026-07-25T19:34:28Z",
+      "sessionId": "19783e18-56b2-4e8e-9202-5951cd644e36",
+      "terminal": false,
+      "status": ""
     }
-  },
-  "seenForkTranscripts": [
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/286d21b7-1aa9-4fd8-a11d-6a3e2c4474a0/subagents/agent-a082ca6b8cdf4ad35.jsonl"
-  ]
+  }
 }
