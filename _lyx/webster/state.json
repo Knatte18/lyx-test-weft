@@ -2,16 +2,16 @@
   "runGuid": "0347f5f53fdbcaa0138e813ac9a0a765",
   "planFingerprint": "f9f6ad4063c874912ec83d5da8daff3a963edbe87739c14d143b185d0556e3a4",
   "currentBatch": 1,
-  "masterStrand": "73756f4c39cb492dca97a4061ef6e662",
-  "masterSessionId": "19783e18-56b2-4e8e-9202-5951cd644e36",
+  "masterStrand": "55da25fa6b1f5c57d6f3c6e752c7d754",
+  "masterSessionId": "d16dcdab-4fd6-493e-a2d5-a788a87b0eeb",
   "assertedModel": "sonnet",
   "batches": {
     "1": {
       "slug": "lazarus2",
       "startSha": "a2b91f2c29b7e33a78afb2effdaa45579e62a7e3",
       "kind": "fork",
-      "spawnedAt": "2026-07-25T19:34:28Z",
-      "sessionId": "19783e18-56b2-4e8e-9202-5951cd644e36",
+      "spawnedAt": "2026-07-25T19:35:17Z",
+      "sessionId": "d16dcdab-4fd6-493e-a2d5-a788a87b0eeb",
       "terminal": false,
       "status": ""
     }
