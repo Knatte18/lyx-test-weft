@@ -1,5 +1,3 @@
-# Webster run: opus-r2 post-fix refusal probe
+# webster opus-r2 post-fix refusal probe
 
-This plan contained a single card: create `wr2pf.md` at the repo root with the single line `OK`. Batch 1 ("mark") was already reported and recorded as `done` prior to this session (per the plan's Progress trail), with no deviations noted. The plan carries no `## verify:` section, so no integration stage was required.
-
-All 1 batch(es) in the plan are complete. Outcome: done.
+This plan contained a single card: batch 1 (`01-mark`), which created the `wr2pf.md` marker file. The batch was already recorded as `done` from a prior session before this Master session began. No plan-level `## verify:` section is present in `00-overview.md`, so no integration stage ran. No deviations were reported for the batch.
