@@ -1,9 +1,7 @@
 # webster opus-r2 post-fix refusal probe
 
-This plan consisted of a single card: batch 1 ("mark"), which created the
-`wr2pf.md` marker file. `lyx webster status` showed this batch already
-recorded as `done` (terminal) at the start of this session, matching the
-Progress section ("01-mark: done"), so no new fork was spawned this run.
-
-The plan carries no plan-level `## verify:` section, so the integration-suite
-stage was skipped. No deviations were reported for this batch.
+This was a one-card plan: batch 1 (01-mark — create wr2pf.md marker) was already
+reported as `done` in the run's progress trail at session start, with no
+deviations recorded. The plan carries no plan-level `## verify:` section, so no
+integration-suite stage was required. All batches in the plan's card list are
+terminal and committed; the run is complete.
