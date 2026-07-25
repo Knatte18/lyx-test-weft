@@ -1,0 +1,3 @@
+outcome: stuck
+stuck_reason: "batch 01-sisyphus: recover-batch returned terminal status: stuck (card's verify `test -f /nonexistent-r3-probe` is intentionally unsatisfiable)"
+batches_done: 0
