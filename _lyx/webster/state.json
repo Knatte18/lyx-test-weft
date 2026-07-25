@@ -1,91 +1,19 @@
 {
-  "runGuid": "c74b191535b2f87d20b118be4fcfb881",
-  "planFingerprint": "c8425110609f3d4e05995ffe9472d05f3b97876b9348488c54ab384245cfd704",
-  "currentBatch": 0,
-  "masterStrand": "54974baf46469f63c386fae919ad0046",
-  "masterSessionId": "70496c01-a480-470b-9c9c-bd3331bcfc76",
+  "runGuid": "5c9886c165ca1c5d38b35ef628f4cf0b",
+  "planFingerprint": "89066c574c8e63b7a8bb0318049cf8c09973f261158f62eecbde7c871d19cd43",
+  "currentBatch": 1,
+  "masterStrand": "4c433338015a2a810303fc16917c97c4",
+  "masterSessionId": "a0ead539-6139-4de3-992b-a3109ded09b9",
   "assertedModel": "sonnet",
   "batches": {
-    "-1": {
-      "slug": "02-offending",
-      "startSha": "",
-      "kind": "",
-      "spawnedAt": "",
-      "terminal": true,
-      "status": "stuck",
-      "digest": {
-        "batch": "02-offending",
-        "status": "stuck",
-        "head_sha": "30311da5dea5077649b988fec604e2724086f1fa"
-      },
-      "cardShas": [
-        "30311da5dea5077649b988fec604e2724086f1fa"
-      ]
-    },
     "1": {
-      "slug": "good-one",
-      "startSha": "9ee87aa91a4cb627b1cde2cd875a27e6f0436ca2",
+      "slug": "mark",
+      "startSha": "3babc4171517f27cdba55ed4c2988096b4ff6dde",
       "kind": "fork",
-      "spawnedAt": "2026-07-25T18:35:41Z",
-      "sessionId": "70496c01-a480-470b-9c9c-bd3331bcfc76",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "01-good-one",
-        "status": "done",
-        "head_sha": "11945d438623b8d23abd346b7a11e65609f57055"
-      },
-      "cardShas": [
-        "11945d438623b8d23abd346b7a11e65609f57055"
-      ],
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/70496c01-a480-470b-9c9c-bd3331bcfc76/subagents/agent-a489f3f03b4ff7a85.jsonl"
-      ]
-    },
-    "2": {
-      "slug": "offending",
-      "startSha": "11945d438623b8d23abd346b7a11e65609f57055",
-      "kind": "fork",
-      "spawnedAt": "2026-07-25T18:36:04Z",
-      "sessionId": "70496c01-a480-470b-9c9c-bd3331bcfc76",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "02-offending",
-        "status": "done",
-        "head_sha": "30311da5dea5077649b988fec604e2724086f1fa"
-      },
-      "cardShas": [
-        "30311da5dea5077649b988fec604e2724086f1fa"
-      ],
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/70496c01-a480-470b-9c9c-bd3331bcfc76/subagents/agent-aa71333ad9bae3ca7.jsonl"
-      ]
-    },
-    "3": {
-      "slug": "good-two",
-      "startSha": "30311da5dea5077649b988fec604e2724086f1fa",
-      "kind": "fork",
-      "spawnedAt": "2026-07-25T18:36:29Z",
-      "sessionId": "70496c01-a480-470b-9c9c-bd3331bcfc76",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "03-good-two",
-        "status": "done",
-        "head_sha": "3babc4171517f27cdba55ed4c2988096b4ff6dde"
-      },
-      "cardShas": [
-        "3babc4171517f27cdba55ed4c2988096b4ff6dde"
-      ],
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/70496c01-a480-470b-9c9c-bd3331bcfc76/subagents/agent-ade037bec8ff8bf05.jsonl"
-      ]
+      "spawnedAt": "2026-07-25T18:38:34Z",
+      "sessionId": "a0ead539-6139-4de3-992b-a3109ded09b9",
+      "terminal": false,
+      "status": ""
     }
-  },
-  "seenForkTranscripts": [
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/70496c01-a480-470b-9c9c-bd3331bcfc76/subagents/agent-a489f3f03b4ff7a85.jsonl",
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/70496c01-a480-470b-9c9c-bd3331bcfc76/subagents/agent-aa71333ad9bae3ca7.jsonl",
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/70496c01-a480-470b-9c9c-bd3331bcfc76/subagents/agent-ade037bec8ff8bf05.jsonl"
-  ]
+  }
 }
