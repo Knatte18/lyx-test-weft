@@ -3,11 +3,11 @@ format: 3
 approved: true
 ---
 
-# Plan: fable-r3 recovery-ladder probe
+# Plan: fable-r3 crash-window probe
 
-One card whose own verify always fails, so its fork reports FAILED and the run
-escalates through recover-batch.
+One trivial marker card; Master is killed between the fork's report landing and
+record-batch, then the run is resumed.
 
 ## Card Index
 
-1 — sisyphus — create r3s.md marker with an unsatisfiable verify
+1 — phoenix — create r3c.md marker

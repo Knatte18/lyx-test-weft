@@ -1,29 +1,19 @@
 {
-  "runGuid": "aaaaa1a56f6354606a3369be0908217a",
-  "planFingerprint": "e5a5db6b08e3286b69354ad5746ace42359b259b50b20e024f19d22ce19049a8",
-  "currentBatch": 0,
-  "masterStrand": "fbd36dd5f8c5544a05606984d91dc898",
-  "masterSessionId": "636ce474-bac7-4ae1-a4ec-e966c644f7f6",
+  "runGuid": "095633bc478ec35b41fea462aef7f894",
+  "planFingerprint": "23701274adceaec489693af21ddf7d8ec9b0f121fa92d635b4a12e3a40ca02d1",
+  "currentBatch": 1,
+  "masterStrand": "08d1e558ec8aaa82cf912f6b9bcfd9bb",
+  "masterSessionId": "37e660c9-7854-4812-847a-960a0d8a7946",
   "assertedModel": "sonnet",
   "batches": {
     "1": {
-      "slug": "sisyphus",
+      "slug": "phoenix",
       "startSha": "03f6727aa929da9d74b8820f20814b55e88a8ddb",
-      "kind": "recovery",
-      "spawnedAt": "2026-07-25T19:17:39Z",
-      "terminal": true,
-      "status": "dead",
-      "digest": {
-        "batch": "01-sisyphus",
-        "status": "dead",
-        "dead_reason": "died"
-      },
-      "strandGuid": "21542846aa5708f32538a1597100c1eb",
-      "shuttleRunDir": "/home/knatte/Code/lyx-test-HUB/lyx-test/.lyx/shuttle/b01c56a14169c027220a1b58e723a332",
-      "eventsPath": "/home/knatte/Code/lyx-test-HUB/lyx-test/.lyx/shuttle/b01c56a14169c027220a1b58e723a332/events.jsonl"
+      "kind": "fork",
+      "spawnedAt": "2026-07-25T19:18:41Z",
+      "sessionId": "37e660c9-7854-4812-847a-960a0d8a7946",
+      "terminal": false,
+      "status": ""
     }
-  },
-  "seenForkTranscripts": [
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/636ce474-bac7-4ae1-a4ec-e966c644f7f6/subagents/agent-a2924cee78f54f0eb.jsonl"
-  ]
+  }
 }
