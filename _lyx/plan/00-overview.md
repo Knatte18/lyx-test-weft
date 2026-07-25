@@ -1,14 +1,14 @@
 ---
-format: 2
+format: 3
 approved: true
 ---
 
-# Plan: one always-stuck batch (webster opus-r4 recovery)
+# Plan: webster opus-r2 live smoke
 
-One batch whose verify command always fails, so the fork exhausts its self-fix
-cap and reports stuck — forcing Master to escalate via recover-batch to a cold
-recovery strand.
+Two trivial marker cards, each creating one file with the single line OK, to
+drive webster's full begin/fork/await/record loop end-to-end.
 
-## Batch Index
+## Card Index
 
-- 01 — stuck (1 card) — create wr4stuck.md then a verify that always fails
+1 — alpha — create wr2-alpha.md marker
+2 — beta — create wr2-beta.md marker
