@@ -1,0 +1,33 @@
+{
+  "runGuid": "5c9886c165ca1c5d38b35ef628f4cf0b",
+  "planFingerprint": "89066c574c8e63b7a8bb0318049cf8c09973f261158f62eecbde7c871d19cd43",
+  "currentBatch": 0,
+  "masterStrand": "0fb4ec3a9dccaee1941e28839239e409",
+  "masterSessionId": "971c5df1-b01c-4a15-baeb-f28e2c469c70",
+  "assertedModel": "sonnet",
+  "batches": {
+    "1": {
+      "slug": "mark",
+      "startSha": "3babc4171517f27cdba55ed4c2988096b4ff6dde",
+      "kind": "fork",
+      "spawnedAt": "2026-07-25T18:38:34Z",
+      "sessionId": "a0ead539-6139-4de3-992b-a3109ded09b9",
+      "terminal": true,
+      "status": "done",
+      "digest": {
+        "batch": "01-mark",
+        "status": "done",
+        "head_sha": "5fcc9d37ead90a2b8fd631cb9cfa188f3f5e53f1"
+      },
+      "cardShas": [
+        "5fcc9d37ead90a2b8fd631cb9cfa188f3f5e53f1"
+      ],
+      "forkTranscripts": [
+        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/a0ead539-6139-4de3-992b-a3109ded09b9/subagents/agent-ad7814f477e2eb6d1.jsonl"
+      ]
+    }
+  },
+  "seenForkTranscripts": [
+    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/a0ead539-6139-4de3-992b-a3109ded09b9/subagents/agent-ad7814f477e2eb6d1.jsonl"
+  ]
+}

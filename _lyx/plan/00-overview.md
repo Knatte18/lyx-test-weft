@@ -3,10 +3,10 @@ format: 3
 approved: true
 ---
 
-# Plan: webster opus-r2 refusal-count probe
+# Plan: webster opus-r2 post-fix refusal probe
 
-One trivial marker card to drive a full run quickly.
+One trivial marker card.
 
 ## Card Index
 
-1 — mark — create wr2p.md marker
+1 — mark — create wr2pf.md marker
