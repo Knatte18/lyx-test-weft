@@ -3,12 +3,18 @@ format: 3
 approved: true
 ---
 
-# Plan: webster opus-r2 live smoke
+# Plan: webster opus-r2 integration bisect
 
-Two trivial marker cards, each creating one file with the single line OK, to
-drive webster's full begin/fork/await/record loop end-to-end.
+Three marker cards; card 2 creates a file the plan-level verify treats as a
+failure, so the integration suite fails and the in-process bisect must localize
+card 2.
 
 ## Card Index
 
-1 — alpha — create wr2-alpha.md marker
-2 — beta — create wr2-beta.md marker
+1 — good-one — create wr2i-g1.md marker
+2 — offending — create wr2i-offending.md marker
+3 — good-two — create wr2i-g2.md marker
+
+## verify:
+
+test ! -f wr2i-offending.md
