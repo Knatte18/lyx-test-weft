@@ -6,6 +6,22 @@
   "masterSessionId": "6b29b2fa-442e-4299-a439-b41af9cfd612",
   "assertedModel": "sonnet",
   "batches": {
+    "-1": {
+      "slug": "02-bad-plant",
+      "startSha": "",
+      "kind": "",
+      "spawnedAt": "",
+      "terminal": true,
+      "status": "stuck",
+      "digest": {
+        "batch": "02-bad-plant",
+        "status": "stuck",
+        "head_sha": "15504a9baeed21ca1184c79966f270a9afc01c11"
+      },
+      "cardShas": [
+        "15504a9baeed21ca1184c79966f270a9afc01c11"
+      ]
+    },
     "1": {
       "slug": "good-one",
       "startSha": "e89164fabb8d9ef0ef27252f3dc68e7882f1063d",

@@ -1,0 +1,3 @@
+outcome: stuck
+stuck_reason: "integration verify FAILED at HEAD 412df10: r3bad.md exists, violating plan-level verify (test ! -f r3bad.md)"
+batches_done: 3
