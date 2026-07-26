@@ -3,12 +3,18 @@ format: 3
 approved: true
 ---
 
-# Plan: opus-r4 happy-path probe
+# Plan: opus-r4 integration-bisect probe
 
-Two trivial cards, each creating one fixed-content file, to drive a full
-`lyx webster run` end-to-end via in-session forks.
+Three trivial cards. Card 2 creates a file that makes the plan-level
+integration `## verify:` command fail, so the integration fork reports FAILED
+and webster's in-process SHA-bisect must localize card 2 as the offender.
 
 ## Card Index
 
-1 — alpha — create opusr4a.md
-2 — beta — create opusr4b.md
+1 — igood — create ig-a.md
+2 — ibad — create ig-bad.md (breaks the verify)
+3 — itail — create ig-c.md
+
+## verify:
+
+echo candidate >> /tmp/opusr4-bisect-count.log; test ! -f ig-bad.md
