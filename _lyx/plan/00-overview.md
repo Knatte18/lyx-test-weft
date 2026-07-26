@@ -3,18 +3,11 @@ format: 3
 approved: true
 ---
 
-# Plan: opus-r4 integration-bisect probe
+# Plan: opus-r4 refusal-count probe
 
-Three trivial cards. Card 2 creates a file that makes the plan-level
-integration `## verify:` command fail, so the integration fork reports FAILED
-and webster's in-process SHA-bisect must localize card 2 as the offender.
+One trivial card creating one fixed-content file, to drive a fresh Master
+spawn end-to-end and extend the Master-refusal count.
 
 ## Card Index
 
-1 — igood — create ig-a.md
-2 — ibad — create ig-bad.md (breaks the verify)
-3 — itail — create ig-c.md
-
-## verify:
-
-echo candidate >> /tmp/opusr4-bisect-count.log; test ! -f ig-bad.md
+1 — solo — create opusr4solo.md

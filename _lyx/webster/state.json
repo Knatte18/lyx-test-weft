@@ -1,91 +1,19 @@
 {
-  "runGuid": "7e8cdac1be1cb35bcdd4600bde447e93",
-  "planFingerprint": "198677a36ea875b6caa7711be58e1767cf26c1ef9624af992c8ff7342aeec891",
-  "currentBatch": 0,
-  "masterStrand": "46ed1569dcd69ec189893a26266e082d",
-  "masterSessionId": "476de91c-cedb-4cde-81f2-b83c54e365a8",
+  "runGuid": "63bceb24376a7221f4e0b1dbe611cce3",
+  "planFingerprint": "755ff1490fadca2b38e02f4e3f6c64793986bf3759ffe0a4bf1db626ca942d4a",
+  "currentBatch": 1,
+  "masterStrand": "c92cec6f3e7d926a4b603206a2f616f4",
+  "masterSessionId": "7fc24a02-0202-4e9f-9487-a2b66884f30d",
   "assertedModel": "sonnet",
   "batches": {
-    "-1": {
-      "slug": "02-ibad",
-      "startSha": "",
-      "kind": "",
-      "spawnedAt": "",
-      "terminal": true,
-      "status": "stuck",
-      "digest": {
-        "batch": "02-ibad",
-        "status": "stuck",
-        "head_sha": "7de31e18b486be3ec611b66134702c3872284c85"
-      },
-      "cardShas": [
-        "7de31e18b486be3ec611b66134702c3872284c85"
-      ]
-    },
     "1": {
-      "slug": "igood",
-      "startSha": "09a88e4a7ecc7e1c44b86ad2bcc1a4b2cf033e59",
+      "slug": "solo",
+      "startSha": "6cb3af407301bc75359e78f8bd4aa50dccef861d",
       "kind": "fork",
-      "spawnedAt": "2026-07-26T08:20:41Z",
-      "sessionId": "476de91c-cedb-4cde-81f2-b83c54e365a8",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "01-igood",
-        "status": "done",
-        "head_sha": "fb674d8e7b67cf6a8845bf882bd84c9ecd88a080"
-      },
-      "cardShas": [
-        "fb674d8e7b67cf6a8845bf882bd84c9ecd88a080"
-      ],
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/476de91c-cedb-4cde-81f2-b83c54e365a8/subagents/agent-accdfa3eb62df598b.jsonl"
-      ]
-    },
-    "2": {
-      "slug": "ibad",
-      "startSha": "fb674d8e7b67cf6a8845bf882bd84c9ecd88a080",
-      "kind": "fork",
-      "spawnedAt": "2026-07-26T08:21:09Z",
-      "sessionId": "476de91c-cedb-4cde-81f2-b83c54e365a8",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "02-ibad",
-        "status": "done",
-        "head_sha": "7de31e18b486be3ec611b66134702c3872284c85"
-      },
-      "cardShas": [
-        "7de31e18b486be3ec611b66134702c3872284c85"
-      ],
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/476de91c-cedb-4cde-81f2-b83c54e365a8/subagents/agent-a77f855dfe4510189.jsonl"
-      ]
-    },
-    "3": {
-      "slug": "itail",
-      "startSha": "7de31e18b486be3ec611b66134702c3872284c85",
-      "kind": "fork",
-      "spawnedAt": "2026-07-26T08:21:34Z",
-      "sessionId": "476de91c-cedb-4cde-81f2-b83c54e365a8",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "03-itail",
-        "status": "done",
-        "head_sha": "6cb3af407301bc75359e78f8bd4aa50dccef861d"
-      },
-      "cardShas": [
-        "6cb3af407301bc75359e78f8bd4aa50dccef861d"
-      ],
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/476de91c-cedb-4cde-81f2-b83c54e365a8/subagents/agent-a36fca16f71e6e305.jsonl"
-      ]
+      "spawnedAt": "2026-07-26T08:24:12Z",
+      "sessionId": "7fc24a02-0202-4e9f-9487-a2b66884f30d",
+      "terminal": false,
+      "status": ""
     }
-  },
-  "seenForkTranscripts": [
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/476de91c-cedb-4cde-81f2-b83c54e365a8/subagents/agent-accdfa3eb62df598b.jsonl",
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/476de91c-cedb-4cde-81f2-b83c54e365a8/subagents/agent-a77f855dfe4510189.jsonl",
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/476de91c-cedb-4cde-81f2-b83c54e365a8/subagents/agent-a36fca16f71e6e305.jsonl"
-  ]
+  }
 }
