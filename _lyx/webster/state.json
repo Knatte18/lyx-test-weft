@@ -1,33 +1,19 @@
 {
-  "runGuid": "63bceb24376a7221f4e0b1dbe611cce3",
-  "planFingerprint": "755ff1490fadca2b38e02f4e3f6c64793986bf3759ffe0a4bf1db626ca942d4a",
-  "currentBatch": 0,
-  "masterStrand": "eb5bc4a66a63a2934cbff2a557109237",
-  "masterSessionId": "3054520e-278e-4759-a73e-0522b066e2fb",
+  "runGuid": "c10dbadaac47d5eceea277599b352031",
+  "planFingerprint": "e8e2f8318cf627ba290a8e5ae2081a081208222d4ccac9251b375abcc95a469d",
+  "currentBatch": 1,
+  "masterStrand": "8dc0f17d1d0b17cacf867cacdf491b82",
+  "masterSessionId": "5ae43ee6-0814-4b1a-a16d-3fe5ec463169",
   "assertedModel": "sonnet",
   "batches": {
     "1": {
-      "slug": "solo",
-      "startSha": "6cb3af407301bc75359e78f8bd4aa50dccef861d",
+      "slug": "pgood",
+      "startSha": "8fbdeb474e0a06c58d3ca9d4540a8953b06b222b",
       "kind": "fork",
-      "spawnedAt": "2026-07-26T08:24:12Z",
-      "sessionId": "7fc24a02-0202-4e9f-9487-a2b66884f30d",
-      "terminal": true,
-      "status": "done",
-      "digest": {
-        "batch": "01-solo",
-        "status": "done",
-        "head_sha": "8fbdeb474e0a06c58d3ca9d4540a8953b06b222b"
-      },
-      "cardShas": [
-        "8fbdeb474e0a06c58d3ca9d4540a8953b06b222b"
-      ],
-      "forkTranscripts": [
-        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/7fc24a02-0202-4e9f-9487-a2b66884f30d/subagents/agent-af11486929c5db995.jsonl"
-      ]
+      "spawnedAt": "2026-07-26T08:33:25Z",
+      "sessionId": "5ae43ee6-0814-4b1a-a16d-3fe5ec463169",
+      "terminal": false,
+      "status": ""
     }
-  },
-  "seenForkTranscripts": [
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/7fc24a02-0202-4e9f-9487-a2b66884f30d/subagents/agent-af11486929c5db995.jsonl"
-  ]
+  }
 }
