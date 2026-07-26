@@ -6,6 +6,22 @@
   "masterSessionId": "476de91c-cedb-4cde-81f2-b83c54e365a8",
   "assertedModel": "sonnet",
   "batches": {
+    "-1": {
+      "slug": "02-ibad",
+      "startSha": "",
+      "kind": "",
+      "spawnedAt": "",
+      "terminal": true,
+      "status": "stuck",
+      "digest": {
+        "batch": "02-ibad",
+        "status": "stuck",
+        "head_sha": "7de31e18b486be3ec611b66134702c3872284c85"
+      },
+      "cardShas": [
+        "7de31e18b486be3ec611b66134702c3872284c85"
+      ]
+    },
     "1": {
       "slug": "igood",
       "startSha": "09a88e4a7ecc7e1c44b86ad2bcc1a4b2cf033e59",

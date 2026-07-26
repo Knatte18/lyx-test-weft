@@ -1,0 +1,3 @@
+outcome: stuck
+stuck_reason: "integration verify FAILED at HEAD 6cb3af4 — plan-level verify command (echo candidate >> /tmp/opusr4-bisect-count.log; test ! -f ig-bad.md) fails because card 02-ibad created ig-bad.md"
+batches_done: 3
