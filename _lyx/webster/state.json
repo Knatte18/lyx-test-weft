@@ -6,6 +6,22 @@
   "masterSessionId": "5ae43ee6-0814-4b1a-a16d-3fe5ec463169",
   "assertedModel": "sonnet",
   "batches": {
+    "-1": {
+      "slug": "02-pbad",
+      "startSha": "",
+      "kind": "",
+      "spawnedAt": "",
+      "terminal": true,
+      "status": "stuck",
+      "digest": {
+        "batch": "02-pbad",
+        "status": "stuck",
+        "head_sha": "ce2367f8fb531118a95851abb0915d66dfff67cc"
+      },
+      "cardShas": [
+        "ce2367f8fb531118a95851abb0915d66dfff67cc"
+      ]
+    },
     "1": {
       "slug": "pgood",
       "startSha": "8fbdeb474e0a06c58d3ca9d4540a8953b06b222b",

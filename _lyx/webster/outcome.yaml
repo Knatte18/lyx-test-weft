@@ -1,0 +1,3 @@
+outcome: stuck
+stuck_reason: "integration verify failed after batch 02-pbad: plan-level verify `test ! -f pg-bad.md` failed at ce2367f8fb531118a95851abb0915d66dfff67cc because pg-bad.md exists"
+batches_done: 2
