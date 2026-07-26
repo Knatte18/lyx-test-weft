@@ -1,10 +1,9 @@
-# Opus-r4 refusal-count probe
+# opus-r4 refusal-count probe
 
-The plan's single card, `01-solo`, was already recorded as `done` when this
-Master session began (confirmed via `lyx webster status`, which reported
-batch 1 "solo" as `done`/`terminal`). The card created `opusr4solo.md` with
-the single line `SOLO-OK`, matching the card's declared spec exactly.
+The plan's single card, 01-solo, was already reported `done` at session start
+(Progress so far: `01-solo: done`), and `lyx webster status` confirmed it as the
+sole batch with `status: "done"`, `terminal: true`. It created `opusr4solo.md` as
+the trivial fixed-content file the plan called for.
 
-The plan carries no `## verify:` section, so no integration stage ran.
-
-No deviations were reported for this batch.
+The plan has no `## verify:` section, so no integration stage ran. No further
+batches, forks, or recoveries were needed this session.
