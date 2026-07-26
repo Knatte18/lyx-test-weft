@@ -1,7 +1,7 @@
 {
   "runGuid": "174fcf0aa24f145efa95ffa3b6977bbe",
   "planFingerprint": "62a77cdb668ccb285d23c3ca783656ca32e185bc9c3c427da96cafc2cb5f88ee",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "masterStrand": "f20a393affe416633561b1468069d0aa",
   "masterSessionId": "dc5d3368-b5ad-42c9-83e1-68c6c2bc6e2f",
   "assertedModel": "sonnet",
@@ -12,8 +12,22 @@
       "kind": "fork",
       "spawnedAt": "2026-07-26T08:18:01Z",
       "sessionId": "dc5d3368-b5ad-42c9-83e1-68c6c2bc6e2f",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done",
+      "digest": {
+        "batch": "01-alpha",
+        "status": "done",
+        "head_sha": "fbf9881a60233aba1ac66e0aece8008709a475d6"
+      },
+      "cardShas": [
+        "fbf9881a60233aba1ac66e0aece8008709a475d6"
+      ],
+      "forkTranscripts": [
+        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/dc5d3368-b5ad-42c9-83e1-68c6c2bc6e2f/subagents/agent-ada1c89d00801f6f5.jsonl"
+      ]
     }
-  }
+  },
+  "seenForkTranscripts": [
+    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-lyx-test/dc5d3368-b5ad-42c9-83e1-68c6c2bc6e2f/subagents/agent-ada1c89d00801f6f5.jsonl"
+  ]
 }
