@@ -4,22 +4,21 @@ findings:
   - id: F1
     severity: LOW
     location: essay.txt:3
-    summary: "Visitors often became confused by its height" is odd word choice — height wouldn't cause "confusion"; likely meant "amazed"/"astonished".
+    summary: "Visitors often became amazed" is awkward phrasing (odd tense/verb choice for an ongoing/habitual observation)
 ---
 
-### [LOW] Odd word choice: "confused" instead of an admiration word
+### [LOW] Awkward phrasing "became amazed"
 
-**Location:** `essay.txt:3`
+**Location:** essay.txt:3
 
-**Issue:** The sentence reads "Visitors often became confused by its height, which is about 330 meters." "Confused" doesn't logically follow from height — a tall structure would more plausibly leave visitors "amazed," "awestruck," or "astonished," not confused. This is not a factual error about the Tower's location/capital, and "confused" is spelled correctly, so it does not rise to BLOCKING under the rubric (which reserves BLOCKING for wrong city/country or misspelled words). It's awkward/illogical phrasing rather than an incorrect fact.
+**Issue:** "Visitors often became amazed by its height, which is about 330 meters." The verb "became" reads awkwardly here — it implies a one-time transition rather than the habitual/general observation the sentence is making about visitors in general. It is not factually incorrect and not a spelling error, so it does not block approval, but it reads oddly.
 
-**Fix:** Replace "confused" with a word that logically fits height-related admiration, e.g. "amazed" or "astonished".
+**Fix:** Reword to something like "Visitors are often amazed by its height, which is about 330 meters." or "Visitors often marvel at its height, which is about 330 meters."
 
-## Review notes
+## Fact-check notes (against fasit)
 
-Checked against fasit requirements:
-- Location: "Eiffel Tower is located in Paris, the capital of France" — correct (Paris is indeed the capital of France, and the Eiffel Tower is in Paris).
-- Spelling: read all three lines word-by-word; no misspellings found (no "becaem"-style errors or similar).
-- Other facts: completion year 1889 is correct; height ~330 meters is a commonly cited correct figure.
+- Line 1: "The Eiffel Tower is located in Paris, the capital of France." — Correct city (Paris) and correct capital-of-France claim. No factual error.
+- Line 2: "It was completed in 1889 and quickly became a global icon." — Correct; the Eiffel Tower was completed in 1889. No factual error, no misspellings.
+- Line 3: Height claim "about 330 meters" is accurate for the Eiffel Tower (current height including antennas). No factual error. No misspelled words found anywhere in the file (checked "became", "Visitors", "amazed", "height", "meters", "completed", "icon", "global", "quickly" — all correctly spelled).
 
-No BLOCKING findings. Verdict: APPROVED, with one LOW finding to fix during job B per the fix-everything rule.
+No BLOCKING findings: no wrong city/country and no misspelled words were found in the current text.
