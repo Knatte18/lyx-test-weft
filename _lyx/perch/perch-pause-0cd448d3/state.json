@@ -14,6 +14,19 @@
       "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-pause-0cd448d3\\round-1-review.md",
       "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-pause-0cd448d3\\round-1-fixer-report.md",
       "sessionId": "0419cfe4-1a1b-4243-a6bc-c70aa0cbe109"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-pause-0cd448d3\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-pause-0cd448d3\\round-2-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-pause-0cd448d3\\round-2-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-pause-0cd448d3\\round-2-handoff.md",
+      "judgeVerdict": "PROGRESSING",
+      "sessionId": "3f6fa10e-281c-4e8e-afce-5f77244ac2f2"
     }
   ]
 }
