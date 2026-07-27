@@ -4,5 +4,31 @@
     3,
     4
   ],
-  "rounds": null
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-ladder\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-ladder\\round-1-fixer-report.md",
+      "sessionId": "ebdf5f5b-870a-491a-9606-5cbdeb50c01a"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-ladder\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-ladder\\round-2-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-ladder\\round-2-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-ladder\\round-2-handoff.md",
+      "judgeVerdict": "CIRCLING",
+      "sessionId": "e51bf15e-64c6-4bbd-903e-9dc08285449f"
+    }
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "circling"
 }
