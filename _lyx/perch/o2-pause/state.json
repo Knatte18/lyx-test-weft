@@ -1,0 +1,33 @@
+{
+  "profileHash": "58992a34fa2998d575105fabd8816e95966fcf126cc67f1ce6857109d89f0d40",
+  "roundCaps": [
+    6
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-pause\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-pause\\round-1-fixer-report.md",
+      "sessionId": "f3d368ed-cb9b-4a06-80b3-33227311f713"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-pause\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-pause\\round-2-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-pause\\round-2-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-pause\\round-2-handoff.md",
+      "judgeVerdict": "CIRCLING",
+      "sessionId": "5356b85a-ed12-442e-a977-ee17b585a4bb"
+    }
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "circling"
+}
