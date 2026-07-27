@@ -4,5 +4,16 @@
     2,
     3
   ],
-  "rounds": null
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 3,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-s1-a2a21bcf\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-s1-a2a21bcf\\round-1-fixer-report.md",
+      "sessionId": "e1aac91a-51a4-4137-8169-16dee783c667"
+    }
+  ]
 }
