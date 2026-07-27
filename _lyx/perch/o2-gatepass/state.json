@@ -1,0 +1,21 @@
+{
+  "profileHash": "422b0a7fc171cab1d3ea36f734f978f8bab3cda0ab12ae2083dc784b8a1625a1",
+  "roundCaps": [
+    2
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-gatepass\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-gatepass\\round-1-fixer-report.md",
+      "gatePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-gatepass\\round-1-gate.md",
+      "gatePassed": true,
+      "sessionId": "dd5322b9-b746-4fbb-a000-9af37c0b65e8"
+    }
+  ],
+  "outcome": "APPROVED"
+}
