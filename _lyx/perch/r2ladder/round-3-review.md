@@ -3,19 +3,18 @@ verdict: BLOCKING
 findings:
   - id: F1
     severity: BLOCKING
-    location: lyx-test/r2-ladder.txt:1
+    location: r2-ladder.txt:1
     summary: artifact lacks a formal provenance header
 ---
 
 ### [BLOCKING] Missing formal provenance header
 
-**Location:** lyx-test/r2-ladder.txt:1
+**Location:** r2-ladder.txt:1
 
-**Issue:** The artifact contains only a single line of content ("Blue sky over the quiet
-harbour.") with no formal provenance header preceding it. Per the fasit for this artifact
-("never acceptable"), this omission is unconditionally blocking — the target is judged
-against a standard it cannot currently satisfy regardless of the quality or correctness of
-the body content itself.
+**Issue:** The artifact (`r2-ladder.txt`, containing a single line "Blue sky over the quiet
+harbour." followed by a blank line) does not carry any formal provenance header. Per the fasit
+for this round, an artifact lacking a formal provenance header is never acceptable, regardless
+of the content otherwise present.
 
-**Fix:** Not fixable within this round. See the fixer-report's deferred section for the
-reason this finding is intentionally left unresolved.
+**Fix:** Not applicable — per the round's rubric this finding is never marked fixed, every
+round, regardless of file contents. See fixer-report for disposition.

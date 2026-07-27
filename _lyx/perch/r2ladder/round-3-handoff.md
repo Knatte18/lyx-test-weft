@@ -6,12 +6,6 @@ ledger:
     status: open
 ---
 
-## Block Summary
+## Block history
 
-The artifact in round 3 remains identical to rounds 1 and 2: a single content line ("Blue sky over the quiet harbour.") with no provenance header. Round 3's review confirms F1 (missing formal provenance header) as BLOCKING, explicitly marking it "not fixable within this round."
-
-The rubric governing this artifact appears to require a provenance header while simultaneously stating per its own rules that this finding must be "unconditionally reported every round and must never be marked fixed or attempted to be resolved." This creates a stalled state, but it is unclear whether the stall reflects an intentional test design (the artifact is meant to fail) or a genuine convergence blocker.
-
-The block has shown no variation across three rounds. The same single finding recurs with no secondary issues, no partial progress, and no oscillation. The ledger for this block contains only the one open finding, now observed in all three rounds.
-
-No evidence exists of convergence or meaningful progression, but the ambiguity about intentional design (noted explicitly in round 2's handoff) prevents a definitive conclusion that the block is stuck rather than behaving as designed.
+The r2ladder block has consistently identified a single BLOCKING finding across all three review rounds: the target artifact lacks a formal provenance header (no author, source, timestamp, tool identity, or generation metadata). Per the rubric governing this round, this finding is explicitly designated as never fixable and must be reported unconditionally every round regardless of file contents. No changes to the artifact have occurred, and the rubric forbids marking this finding as resolved. With zero meaningful progress and an explicit design that prohibits convergence, the block has reached a clear stall before the round 4 hard cap.
