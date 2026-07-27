@@ -1,0 +1,22 @@
+{
+  "profileHash": "d78ff1e41ffa61b7803cb8f3a9f8ae88d8e6019463c52c55a53998a8eefc9400",
+  "roundCaps": [
+    1
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2gto\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2gto\\round-1-fixer-report.md",
+      "gatePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2gto\\round-1-gate.md",
+      "gatePassed": false,
+      "sessionId": "91403f06-62bd-4ef7-93e0-0b64bba8ee3c"
+    }
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "hard-cap"
+}
