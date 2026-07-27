@@ -3,5 +3,17 @@
   "roundCaps": [
     2
   ],
-  "rounds": null
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2to\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2to\\round-1-fixer-report.md",
+      "sessionId": "09af8d19-dcff-44fd-a463-674314395a3c"
+    }
+  ],
+  "outcome": "APPROVED"
 }
