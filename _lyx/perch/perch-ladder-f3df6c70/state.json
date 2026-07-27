@@ -1,0 +1,57 @@
+{
+  "profileHash": "f3df6c700b30085d8f58eed2a34bca6f7bf69da07f598d3d41a1c874233aa0f0",
+  "roundCaps": [
+    3,
+    4
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-1-fixer-report.md",
+      "sessionId": "8bacef54-3104-4b63-bf2f-2a5e6cb5ab99"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-2-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-2-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-2-handoff.md",
+      "judgeVerdict": "PROGRESSING",
+      "sessionId": "9c9c98af-96b1-4898-a7ad-9a8e4260e4f5"
+    },
+    {
+      "round": 3,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-3-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-3-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-3-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-3-handoff.md",
+      "judgeVerdict": "UNCERTAIN",
+      "sessionId": "9198168a-2ad6-4588-9195-20846ffc8c63"
+    },
+    {
+      "round": 4,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-4-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\perch-ladder-f3df6c70\\round-4-fixer-report.md",
+      "sessionId": "cf1a51ff-ae06-4b87-a1ce-c2e4909bf160"
+    }
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "hard-cap"
+}
