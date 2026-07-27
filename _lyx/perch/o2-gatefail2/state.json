@@ -1,0 +1,34 @@
+{
+  "profileHash": "293a51c640a9a6bed76b6d904bcff1e777105fe42574a9fe153015c9fb4c0cb7",
+  "roundCaps": [
+    2
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-gatefail2\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-gatefail2\\round-1-fixer-report.md",
+      "gatePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-gatefail2\\round-1-gate.md",
+      "gatePassed": false,
+      "sessionId": "e47d2333-d72f-4113-9891-7170fcc076d6"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-gatefail2\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-gatefail2\\round-2-fixer-report.md",
+      "gatePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-gatefail2\\round-2-gate.md",
+      "gatePassed": false,
+      "sessionId": "addad0f3-8722-4471-b61c-4a8b3f90725d"
+    }
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "hard-cap"
+}
