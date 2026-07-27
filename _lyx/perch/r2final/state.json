@@ -14,6 +14,17 @@
       "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2final\\round-1-review.md",
       "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2final\\round-1-fixer-report.md",
       "sessionId": "05f5bde3-dbab-460c-8f8a-417f5b9fff18"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "APPROVED",
+      "blockingCount": 0,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2final\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2final\\round-2-fixer-report.md",
+      "sessionId": "a6617763-dcdb-4cb3-a79d-7b9ff35e5bba"
     }
-  ]
+  ],
+  "outcome": "APPROVED"
 }
