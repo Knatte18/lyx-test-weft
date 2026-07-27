@@ -1,0 +1,57 @@
+{
+  "profileHash": "bf07e7ccc5fc31c591dda17a589f5b1fdfb61a116ba56238b9e375b74ec267c6",
+  "roundCaps": [
+    3,
+    4
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-1-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-1-fixer-report.md",
+      "sessionId": "d8a54017-6730-43cb-a944-f790ef2a0c89"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-2-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-2-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-2-handoff.md",
+      "judgeVerdict": "PROGRESSING",
+      "sessionId": "2d1db01e-2045-40c9-ba64-dbf2e1fd7610"
+    },
+    {
+      "round": 3,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-3-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-3-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-3-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-3-handoff.md",
+      "judgeVerdict": "CONTINUE",
+      "sessionId": "89a65086-d7a2-4597-a05c-1af1afd1e653"
+    },
+    {
+      "round": 4,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-4-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\o2-rungs\\round-4-fixer-report.md",
+      "sessionId": "e196d9da-cdec-47e2-a5aa-160c0da8f52b"
+    }
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "hard-cap"
+}
