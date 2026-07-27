@@ -27,6 +27,21 @@
       "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2ladder\\round-2-handoff.md",
       "judgeVerdict": "UNCERTAIN",
       "sessionId": "811ea0e3-d451-4270-ab05-9f6b8db18e42"
+    },
+    {
+      "round": 3,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2ladder\\round-3-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2ladder\\round-3-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2ladder\\round-3-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2ladder\\round-3-handoff.md",
+      "judgeVerdict": "STOP",
+      "sessionId": "673a8989-33a4-4752-8c2c-e97cf524d891"
     }
-  ]
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "milestone-stop"
 }
