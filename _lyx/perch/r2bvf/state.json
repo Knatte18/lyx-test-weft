@@ -15,6 +15,20 @@
       "gatePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2bvf\\round-1-gate.md",
       "gatePassed": true,
       "sessionId": "931453db-16de-42f0-ae47-77ce0d9263ab"
+    },
+    {
+      "round": 2,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2bvf\\round-2-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2bvf\\round-2-fixer-report.md",
+      "gatePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2bvf\\round-2-gate.md",
+      "gatePassed": true,
+      "sessionId": "bf80e332-8dad-4161-8199-ac770f88a892"
     }
-  ]
+  ],
+  "outcome": "STUCK",
+  "stuckReason": "hard-cap"
 }
