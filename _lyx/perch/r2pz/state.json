@@ -53,6 +53,71 @@
       "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-4-handoff.md",
       "judgeVerdict": "PROGRESSING",
       "sessionId": "84a93ddd-4577-4c24-ac56-1a4091fe0ea4"
+    },
+    {
+      "round": 5,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-5-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-5-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-5-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-5-handoff.md",
+      "judgeVerdict": "UNCERTAIN",
+      "sessionId": "ac36e0b3-0619-43d1-a07b-9046a2bd6e3f"
+    },
+    {
+      "round": 6,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-6-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-6-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-6-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-6-handoff.md",
+      "judgeVerdict": "PROGRESSING",
+      "sessionId": "2a377ef2-5586-43d9-9a88-57fa3687b529"
+    },
+    {
+      "round": 7,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-7-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-7-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-7-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-7-handoff.md",
+      "judgeVerdict": "UNCERTAIN",
+      "sessionId": "a9c09481-d4ca-494c-b27e-32a61ef1ccd6"
+    },
+    {
+      "round": 8,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-8-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-8-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-8-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-8-handoff.md",
+      "judgeVerdict": "PROGRESSING",
+      "sessionId": "a9c11db7-1345-498b-9129-a52da409cf15"
+    },
+    {
+      "round": 9,
+      "attempts": 1,
+      "shuttleOutcome": "done",
+      "verdict": "BLOCKING",
+      "blockingCount": 1,
+      "reviewPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-9-review.md",
+      "fixerReportPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-9-fixer-report.md",
+      "judgePath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-9-judge.md",
+      "handoffPath": "C:\\Code\\lyx-test-HUB\\lyx-test\\_lyx\\perch\\r2pz\\round-9-handoff.md",
+      "judgeVerdict": "UNCERTAIN",
+      "sessionId": "311409a8-7b2c-482e-9d8e-6c257348b32f"
     }
   ]
 }
