@@ -4,7 +4,7 @@
 - `services/api#main`
 
 **Uses:**
-- `plan:services/api#FormatGreeting`
+- `services/api#FormatGreeting`
 
 **Intent:** Make the binary do something. `main()`'s body becomes
 `fmt.Println(FormatGreeting("lyx"))`, so building and running `services/api` prints

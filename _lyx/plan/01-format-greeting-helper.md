@@ -1,7 +1,7 @@
 # Card 1 — format-greeting-helper
 
 **Create:**
-- `plan:services/api#FormatGreeting` -> `func FormatGreeting(name string) string`
+- `services/api#FormatGreeting`
 - `services/api/main_test.go`
 
 **Intent:** Give `services/api` its one piece of real behaviour. Add an exported helper
