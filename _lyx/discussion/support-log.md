@@ -32,7 +32,11 @@ this package on go1.26.0. This resolved the testing question in one shot: a bund
 file is not dead weight, because it actually runs. Also learned the hard way that a bare
 `GO111MODULE=off go build ./services/api/` writes an `api` binary into the repo root;
 the stray artifact was removed and the worktree returned to clean before continuing.
-That byproduct became acceptance criterion 9.
+That byproduct became acceptance criterion 9. One standing caveat with no action attached,
+and so kept here rather than in the decision record: GOPATH mode is a legacy path. It works
+on go1.26.0 today, but if a future toolchain drops `GO111MODULE=off` every verification
+command in the record stops working and the repo would need a `go.mod` — a decision outside
+this task.
 
 **Batch 3 — signature, behaviour, edge cases.** Settled on
 `FormatGreeting(name string) string`: one parameter, one return, no `error`, because
@@ -74,8 +78,10 @@ nobody asked, and it adds a normalisation rule that then has to be documented an
 
 **Unexported helper (`formatGreeting`).** Better Go style for a `package main` symbol
 that nothing outside the package can reach, but the task explicitly asks for an exported
-helper. Followed the task. Logged in the decision record's open risks, since a style-
-minded reviewer may later "fix" the export and break the test.
+helper. Followed the task. Standing caveat, carried here rather than in the decision
+record because it needs no action from the plan writer: a later reviewer applying
+ordinary Go style may read the export as pointless and "fix" it, which breaks the test
+file that calls the helper by name.
 
 **Final name `GreetingMessage` or `BuildGreeting`.** Both describe the return, but
 `FormatGreeting` is verb-led and matches the `fmt`-family vocabulary already in the file.

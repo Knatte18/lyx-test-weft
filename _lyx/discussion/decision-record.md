@@ -31,23 +31,18 @@ rather than performing a greeting. `Greet` reads as an action with a side effect
 which is exactly the vagueness the rename is meant to fix.
 
 **Intermediate name is `Greet`; the rename lands `FormatGreeting`.**
-Rationale: the task specifies add-then-rename as two ordered steps. `Greet` is a
-plausible first-draft name a developer would actually write, so the rename is a real
-improvement rather than a staged token swap.
+Rationale: the task sequences add-then-rename as two ordered steps, and each state is
+independently buildable and testable.
 
 **The helper is exported.**
-Rationale: the task asks for an exported helper. Exporting from `package main` buys
-nothing at link time, but it is what was specified, it is what the test file exercises
-by name, and `go vet` does not object.
+Rationale: the task asks for an exported helper, and the test file exercises it by name,
+so the export cannot quietly become unexported without breaking the tests.
 
 **Signature takes one `string`, returns one `string`, no `error`.**
 Rationale: string formatting has no failure mode. An `error` return would be an
 unreachable branch in every caller and in every test.
 
 **Body is `fmt.Sprintf("Hello, %s!", name)`.**
-Rationale: `fmt` is imported regardless because `main()` prints the result, so
-`Sprintf` costs no new dependency and reads more clearly than concatenation at this
-size.
 
 **Empty `name` falls back to `"world"`, so `FormatGreeting("")` is `"Hello, world!"`.**
 Rationale: `"Hello, !"` is visibly broken output for the one input a caller can pass by
@@ -64,19 +59,7 @@ empty-name default to the test, so the two paths are covered in different places
 than both landing on `"world"`.
 
 **The existing fixture comment on `main()` stays.**
-Rationale: it records why `services/api` exists at all. Deleting it loses the only
-in-repo explanation of the package's purpose to a task that has nothing to do with it.
-
-**Verification runs under `GO111MODULE=off`.**
-Rationale: the repo has no `go.mod` at any level, so module-mode `go build`, `go vet`,
-and `go test` all fail with `go.mod file not found`. In GOPATH mode all three succeed
-against this package today (verified on go1.26.0 in this worktree). Adding a `go.mod` to
-make module mode work would put a new file at a path the task excludes and would change
-the shape of a fixture repo other tests depend on.
-
-**A bundled `main_test.go` is included.**
-Rationale: it is permitted by the task and, given GOPATH mode works, the tests actually
-run rather than sitting unrunnable in the tree.
+Rationale: it records why `services/api` exists at all.
 
 ## Constraints
 
@@ -84,7 +67,8 @@ run rather than sitting unrunnable in the tree.
   `GO111MODULE=off` or it fails before reaching the code.
 - `go build` on a `main` package writes the executable into the working directory —
   a bare `GO111MODULE=off go build ./services/api/` drops an `api` binary at the repo
-  root and dirties the worktree. Use `-o /dev/null`, or prefer `go vet`.
+  root and dirties the worktree. Use `-o /dev/null` for a compile check, `-o` into a
+  directory outside the repo when the binary has to be run, or prefer `go vet`.
 - This repo is the host fixture for the Loomyard **weft** sandbox and is paired with
   `lyx-test-weft`; `services/api/` exists to exercise weft path mirroring. Its path
   layout must not move.
@@ -96,33 +80,21 @@ run rather than sitting unrunnable in the tree.
 
 ## Auto-mode assumptions
 
-The session ran autonomously with no operator; every question below was self-answered.
+The session ran autonomously with no operator, so every decision above was self-answered.
 
-- The rename is a genuine second step, not a cosmetic one: the tree passes at the
-  `Greet` state and again at the `FormatGreeting` state.
-- The work splits into two ordered cards (add-and-wire, then rename) rather than one
-  card containing both edits, because the task states the rename as a follow-on
-  ("Once that is in place") and each state is independently buildable and testable.
-- `"Hello, %s!"` is the greeting text. No operator preference was available; anything
-  short and conventional satisfies "a short greeting message".
-- `"lyx"` is the name `main()` greets. Arbitrary; only requirement is that it is not
-  empty, so the printed output does not coincide with the empty-name default.
-- Adding `main_test.go` to `services/api/` does not disturb the weft fixture. Supporting
-  evidence: commit `2fe7af9` already added `services/api/s2-note.txt` to this directory
-  as a sandbox change without incident.
+Four of them are auto-picks with no operator preference behind them, and are the ones to
+revisit first if the plan writer has better information: the greeting text
+`"Hello, %s!"`, the greeted name `"lyx"`, the intermediate name `Greet`, and the
+two-card split (add-and-wire, then rename) — the last being the weakest-evidence call in
+this record.
 
 ## Open risks
 
-- **GOPATH mode is deprecated.** `GO111MODULE=off` works on go1.26.0 here, but it is a
-  legacy path. If a future toolchain drops it, every verification command in this record
-  stops working and the repo would need a `go.mod` — a decision outside this task.
 - **Weft fixture assertions are not visible from this worktree.** If any test in
   `lyx-test-weft` asserts an exact file inventory for the mirrored `services/api/`
-  subpath, the new `main_test.go` would trip it. Not checkable from here; the
-  `s2-note.txt` precedent is evidence but not proof.
-- **`services/api` is `package main` with an exported symbol.** Correct per the task,
-  but a future reviewer applying ordinary Go style may flag the export as pointless and
-  "fix" it, breaking the test file that calls it by name.
+  subpath, the new `main_test.go` would trip it. Not checkable from here; commit
+  `2fe7af9` already added `services/api/s2-note.txt` to this same directory without
+  incident, which is evidence but not proof.
 
 ## Acceptance criteria
 
@@ -147,18 +119,21 @@ Commands, all run from the repo root, all exiting 0:
 8. `gofmt -l services/api` prints nothing.
 9. `git status --porcelain` shows only the two intended files — in particular no stray
    `api` binary at the repo root.
+10. `OUT="$(mktemp -d)/api"; GO111MODULE=off go build -o "$OUT" ./services/api/ && "$OUT"`
+    prints `Hello, lyx!` — this is what checks criterion 2. Building outside the repo is
+    what keeps criterion 9 true; a bare `go build` would drop the binary at the root.
 
 Must-cover test scenarios in `services/api/main_test.go`, table-driven:
 
-10. Ordinary name: `FormatGreeting("lyx")` is `"Hello, lyx!"`.
-11. Empty name defaults: `FormatGreeting("")` is `"Hello, world!"`.
-12. Name passes through verbatim, spaces and all: `FormatGreeting("Ada Lovelace")` is
+11. Ordinary name: `FormatGreeting("lyx")` is `"Hello, lyx!"`.
+12. Empty name defaults: `FormatGreeting("")` is `"Hello, world!"`.
+13. Name passes through verbatim, spaces and all: `FormatGreeting("Ada Lovelace")` is
     `"Hello, Ada Lovelace!"`.
 
 Intermediate state, if the rename lands as its own card:
 
-13. At the end of the add-and-wire card, the helper is named `Greet`, `main()` and the
-    test file both call it by that name, and criteria 6–9 already hold.
+14. At the end of the add-and-wire card, the helper is named `Greet`, `main()` and the
+    test file both call it by that name, and criteria 6–10 already hold.
 
 ## Notes for the plan writer
 
@@ -168,9 +143,8 @@ Non-exhaustive; explore the tree yourself.
   `// Dummy subpath fixture for weft relpath-mirroring tests.`, and an empty
   `func main() {}`. There is no import block yet — adding `fmt` means adding one.
 - `services/api/` also holds `s2-note.txt`, an unrelated sandbox artifact. Leave it.
-- There is no `go.mod`, no CI config, no lint config, and no build script in this repo.
-  Nothing needs updating to make the new verification commands run; they are
-  hand-invoked.
+- The verification commands are hand-invoked; nothing in the repo needs updating to make
+  them run.
 - Card ordering: the rename card depends on the add-and-wire card. The rename touches
   three sites — the function declaration, its doc comment, and the call in `main()` —
   plus every reference in `main_test.go`.
