@@ -1,6 +1,6 @@
 ---
 format: 5
-approved: false
+approved: true
 language: go
 ---
 
@@ -64,6 +64,7 @@ Nothing outside `services/api/main.go` and `services/api/main_test.go` changes. 
 ## verify:
 
 GO111MODULE=off go vet ./services/api/
-GO111MODULE=off go test ./services/api/
+test -f services/api/main_test.go && GO111MODULE=off go test -count=1 ./services/api/
 test -z "$(gofmt -l services/api)"
 OUT="$(mktemp -d)/api"; GO111MODULE=off go build -o "$OUT" ./services/api/ && test "$("$OUT")" = "Hello, lyx!"
+test -z "$(git status --porcelain -- . ':(exclude)services/api/main.go' ':(exclude)services/api/main_test.go')"

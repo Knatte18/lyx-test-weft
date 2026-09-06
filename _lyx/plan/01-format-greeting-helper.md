@@ -29,3 +29,5 @@ package compiles cleanly, so this card builds and tests on its own.
 rows: `FormatGreeting("lyx")` is `"Hello, lyx!"`, `FormatGreeting("")` is
 `"Hello, world!"`, and `FormatGreeting("Ada Lovelace")` is `"Hello, Ada Lovelace!"` — the
 name passes through verbatim, spaces and all.
+
+**Verify:** test -f services/api/main_test.go && GO111MODULE=off go test -count=1 ./services/api/
