@@ -1,11 +1,11 @@
 {
-  "current_producer": "Plan-Bouncer",
+  "current_producer": "Plan-Revalidate",
   "state": "running",
   "error": "",
   "pause_requested": false,
   "activity": {
-    "now": "Plan-Bouncer",
-    "last": "Plan-Burler → stuck",
+    "now": "Plan-Revalidate",
+    "last": "Plan-Bouncer → done",
     "wait": ""
   },
   "history": [
@@ -74,6 +74,12 @@
       "outcome": "stuck",
       "output": "/home/knatte/Code/lyx-test-HUB/glyph-demo-greet/.lyx/loom/reviews/plan/round-1-review.md",
       "at": "2026-09-06T18:09:13Z"
+    },
+    {
+      "producer": "Plan-Bouncer",
+      "outcome": "done",
+      "output": "/home/knatte/Code/lyx-test-HUB/glyph-demo-greet/.lyx/loom/reviews/plan/round-1-bouncer-ledger.md",
+      "at": "2026-09-06T18:11:19Z"
     }
   ],
   "product": {
