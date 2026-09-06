@@ -1,7 +1,7 @@
 {
   "runGuid": "1f37f46c5029cdadb3a6b5dbd98c347d",
   "planFingerprint": "fc499bdaca89206c8337a47cc2d7dabde993467cb2a274c57e67d714b4f9fdf5",
-  "currentBatch": 2,
+  "currentBatch": 0,
   "masterStrand": "97a9f560f1920a67d5dfbcab5bb8a1dd",
   "masterSessionId": "c2ef560e-2215-4fc8-95ad-2d7bfffd8018",
   "assertedModel": "sonnet",
@@ -32,11 +32,23 @@
       "kind": "fork",
       "spawnedAt": "2026-09-06T18:12:23Z",
       "sessionId": "c2ef560e-2215-4fc8-95ad-2d7bfffd8018",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done",
+      "digest": {
+        "batch": "02-main-greeting-wiring",
+        "status": "done",
+        "head_sha": "ed1263a2f979a58b2a8b24fd765a433ab351b40a"
+      },
+      "cardShas": [
+        "ed1263a2f979a58b2a8b24fd765a433ab351b40a"
+      ],
+      "forkTranscripts": [
+        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-glyph-demo-greet/c2ef560e-2215-4fc8-95ad-2d7bfffd8018/subagents/agent-ac9af00aca29f7978.jsonl"
+      ]
     }
   },
   "seenForkTranscripts": [
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-glyph-demo-greet/c2ef560e-2215-4fc8-95ad-2d7bfffd8018/subagents/agent-a4a2a783b88150349.jsonl"
+    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-glyph-demo-greet/c2ef560e-2215-4fc8-95ad-2d7bfffd8018/subagents/agent-a4a2a783b88150349.jsonl",
+    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-glyph-demo-greet/c2ef560e-2215-4fc8-95ad-2d7bfffd8018/subagents/agent-ac9af00aca29f7978.jsonl"
   ]
 }
