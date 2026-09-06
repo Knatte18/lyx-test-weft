@@ -5,7 +5,7 @@
      It is a marker VALUE, never a template -- it carries no top-level stencil markers of its own, and
      internal/stencil's StripLeadingComment removes this leading comment before either consumer ever
      sees it.
-lyx-stencil: sha256=5c4ecc9d0d2ec64b05d5a4c9c2f1375f575c33ab8758925dca89ce2c50de45ca -->
+lyx-stencil: sha256=eb0fde7cbbcf4c371c0c77f73c64a2a62c8adc30bdadb8c2c6cddfb582145f70 -->
 
 # Webster-Review rubric
 
@@ -49,7 +49,7 @@ Do not flag any of the following as a finding:
 ## Also flag
 
 - **Comment-convention compliance.**
-  Any new or changed doc comment follows `manifest/designs/code-comment-conventions.md`.
+  Any new or changed doc comment follows `docs/code-comment-conventions.md`.
   This rubric points at that file and restates none of it.
 - **Per-card mechanical check.**
-  Confirm the card's Type-specific mechanical check actually ran and passed — the AST-script-plus-grep for a `Rename` card, `assert-no-callers` for a `Delete` card, per the per-type table in `manifest/designs/plan-card-format.md` — not merely that the diff compiles and its tests pass.
+  Confirm every one of the card's own groups' type-specific mechanical checks actually ran and passed, each against that group's own targets, not just the first label's — the AST-script-plus-grep for a `Rename` group, `assert-no-callers` for a `Delete` group, per the per-type table in `manifest/designs/plan-card-format.md` — not merely that the diff compiles and its tests pass.

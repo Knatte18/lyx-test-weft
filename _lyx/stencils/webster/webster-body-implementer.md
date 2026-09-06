@@ -1,4 +1,4 @@
-<!-- lyx-stencil: sha256=da89fce53c7c9fe46ac7d5dbd188752d4a8728baded7d129e4d4d6ba0b92b1b9 -->
+<!-- lyx-stencil: sha256=d4e9c1eb78c307f020cde89496b34dc27a7faa3df56aa35f7fd014735d0d2d50 -->
 
 # Webster implementer job — read your cards, implement, commit, report
 
@@ -26,7 +26,7 @@ For EACH card file listed above, in the order listed:
 1. Read the card file.
    It is your whole instruction for that card.
    If its `**Intent:**` field is empty, fall back to that card's one-line intent from the Card Index in `_lyx/plan/00-overview.md`, matched by the same NN/slug.
-2. A card names its targets under its own type label and what it reads under `**Uses:**`; see `contracts/specs/loom-plan-spec.md` for the full grammar. Make exactly the changes the card describes, in exactly the targets its type label names.
+2. A card names its targets under its own type label(s) and what it reads under `**Uses:**`; see `contracts/specs/loom-plan-spec.md` for the full grammar. Make exactly the changes the card describes, in exactly the targets its type labels name.
 3. Run `go build ./...` and this card's package's unit tests from `{{.worktree_root}}`.
    A failure here is the card's own build+unit gate — fix it before moving on;
    this gate is implicit in every card, never optional.
@@ -61,4 +61,4 @@ deviations:
 ```
 
 `status` is `OK` when every card above is committed and every gate it ran passed;
-`FAILED` when you stopped after exhausting the self-fix bound on some card. `head_sha` is your worktree's current HEAD commit SHA — capture it with `git rev-parse HEAD` as your very last read before writing the report, so it reflects every commit you made. `deviations` is the list of worktree-relative paths you changed OUTSIDE the deviation union — every path-shaped target entry across the batch's cards, plus the files holding every symbol-shaped target entry, which you resolve yourself since it is already in your worktree and resolving a package-qualified symbol to its file is one read. `Uses:` stays out of the union because it is read rather than written. Omit `deviations` entirely when you made no such changes. `deviations` is ALWAYS informational: a non-empty list never makes `status` `FAILED` on its own — only a failed build+unit gate or a failed card `verify:` does.
+`FAILED` when you stopped after exhausting the self-fix bound on some card. `head_sha` is your worktree's current HEAD commit SHA — capture it with `git rev-parse HEAD` as your very last read before writing the report, so it reflects every commit you made. `deviations` is the list of worktree-relative paths you changed OUTSIDE the deviation union — the batch's own target glyphs across its cards, reported as the paths you touched rather than resolved by you: under the glyph alphabet a symbol-shaped target is a glyph, not a package-qualified name, and the mechanical glyph scope guard (`internal/planglyph`'s `ScopeGuard`, run over the record-batch delta) is what actually compares your work against the union — your own job here is only to report what you touched, never to estimate the comparison yourself. `Uses:` stays out of the union because it is read rather than written. Omit `deviations` entirely when you made no such changes. `deviations` is ALWAYS informational: a non-empty list never makes `status` `FAILED` on its own — only a failed build+unit gate or a failed card `verify:` does.
