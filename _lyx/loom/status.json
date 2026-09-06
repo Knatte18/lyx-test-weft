@@ -1,11 +1,11 @@
 {
-  "current_producer": "Plan-Bouncer",
+  "current_producer": "Plan-Burler",
   "state": "running",
   "error": "",
   "pause_requested": false,
   "activity": {
-    "now": "Plan-Bouncer",
-    "last": "Plan-Validate → done",
+    "now": "Plan-Burler",
+    "last": "Plan-Bouncer → stuck",
     "wait": ""
   },
   "history": [
@@ -62,6 +62,12 @@
       "outcome": "done",
       "output": "/home/knatte/Code/lyx-test-HUB/glyph-demo-greet/_lyx/plan",
       "at": "2026-09-06T17:59:32Z"
+    },
+    {
+      "producer": "Plan-Bouncer",
+      "outcome": "stuck",
+      "output": "",
+      "at": "2026-09-06T18:01:38Z"
     }
   ],
   "product": {
