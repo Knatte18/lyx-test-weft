@@ -1,7 +1,7 @@
 {
   "runGuid": "1f37f46c5029cdadb3a6b5dbd98c347d",
   "planFingerprint": "fc499bdaca89206c8337a47cc2d7dabde993467cb2a274c57e67d714b4f9fdf5",
-  "currentBatch": 0,
+  "currentBatch": 2,
   "masterStrand": "97a9f560f1920a67d5dfbcab5bb8a1dd",
   "masterSessionId": "c2ef560e-2215-4fc8-95ad-2d7bfffd8018",
   "assertedModel": "sonnet",
@@ -25,6 +25,15 @@
       "forkTranscripts": [
         "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-glyph-demo-greet/c2ef560e-2215-4fc8-95ad-2d7bfffd8018/subagents/agent-a4a2a783b88150349.jsonl"
       ]
+    },
+    "2": {
+      "slug": "main-greeting-wiring",
+      "startSha": "f235810adbdcf2aa12d1414f26e8cc806b24bd71",
+      "kind": "fork",
+      "spawnedAt": "2026-09-06T18:12:23Z",
+      "sessionId": "c2ef560e-2215-4fc8-95ad-2d7bfffd8018",
+      "terminal": false,
+      "status": ""
     }
   },
   "seenForkTranscripts": [
