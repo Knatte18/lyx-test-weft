@@ -1,7 +1,7 @@
 {
   "runGuid": "9928c497f53aeb4495417788f70a9dfa",
   "planFingerprint": "62293b9f75512862366efdb78b9f042c8a40fc6d2e1b1b017e506b3f9eef8824",
-  "currentBatch": 0,
+  "currentBatch": 2,
   "masterStrand": "33778b0438da8237420f23c08a8d86de",
   "masterSessionId": "e3f3d2f0-5784-41e4-bb10-95d5f10db3b4",
   "assertedModel": "sonnet",
@@ -25,6 +25,15 @@
       "forkTranscripts": [
         "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-r4-drift-hub/e3f3d2f0-5784-41e4-bb10-95d5f10db3b4/subagents/agent-add6f1ee784f6352e.jsonl"
       ]
+    },
+    "2": {
+      "slug": "farewell-doc",
+      "startSha": "6f9024b781c858e0cc5e824abb6a051807aee455",
+      "kind": "fork",
+      "spawnedAt": "2026-09-07T18:53:44Z",
+      "sessionId": "e3f3d2f0-5784-41e4-bb10-95d5f10db3b4",
+      "terminal": false,
+      "status": ""
     }
   },
   "seenForkTranscripts": [
