@@ -23,6 +23,6 @@ separate lines, both from the existing `"lyx"` argument — two statements rathe
 combined call, so each line stays independently greppable. Leave the
 `// Dummy subpath fixture …` comment above `main` in place.
 
-**ImpactSummary:** `main` gains one output line; `main_test.go` gains one test function and `TestComposeGreeting` is untouched.
+**ImpactSummary:** `main` has no callers and no test asserts its stdout, and the new test function leaves `TestComposeGreeting` untouched, so both edits are additive and reach nothing outside `package main`.
 
 **Commit:** `3: farewell-test-and-main-wiring`
