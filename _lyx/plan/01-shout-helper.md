@@ -1,7 +1,7 @@
 # Card 1 — shout-helper
 
 **Create:**
-- `plan:services/api#shout` -> `func shout(s string) string`
+- `services/api#shout`
 
 **Intent:** Add a new unexported helper `shout` to `services/api/main.go`, placed directly below
 `orDefault`, returning its argument with a single `"!"` appended.

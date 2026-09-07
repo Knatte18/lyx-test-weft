@@ -4,7 +4,7 @@
 - `services/api#main`
 
 **Uses:**
-- `plan:services/api#shout`
+- `services/api#shout`
 
 **Intent:** Route `main`'s greeting line through the helper card 1 added: print
 `shout(ComposeGreeting("lyx"))` where it currently prints `ComposeGreeting("lyx")`.
