@@ -1,6 +1,6 @@
 ---
 format: 5
-approved: false
+approved: true
 language: go
 ---
 
@@ -24,8 +24,7 @@ file is added, moved, or deleted.
 
 ## Card Index
 
-1 — compose-greeting-rename — Rename the helper and retarget its two call sites and its failure-message literal
-2 — test-name-follow-through — Rename the test function so it names the symbol it exercises
+1 — compose-greeting-rename — Rename the helper and the test that exercises it, retargeting every reference the old name carries
 
 ## Shared Decisions
 
@@ -63,6 +62,8 @@ file is added, moved, or deleted.
 ```sh
 test -z "$(gofmt -l services/api)"
 ! grep -rn FormatGreeting services/api
+test "$(grep -c ComposeGreeting services/api/main.go)" = 3
+test "$(grep -c ComposeGreeting services/api/main_test.go)" = 3
 D="$(mktemp -d)" && cp services/api/main.go services/api/main_test.go "$D"/ && printf 'module scratch\n\ngo 1.26\n' > "$D"/go.mod && go -C "$D" test -v ./...
 test -z "$(git status --porcelain)"
 ```
