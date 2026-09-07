@@ -4,19 +4,16 @@ approved: true
 language: go
 ---
 
-# Plan: rename the default-name helper and follow it through the docs
+# Plan: add a shout helper and wire it into main
 
-`services/api/main.go` carries an unexported helper `defaultName` that both `ComposeGreeting`
-and `ComposeFarewell` delegate their empty-name default to.
-Its name reads as a noun where every call site uses it as an operator, so this plan retargets
-the identifier to `orDefault`, notes the delegation in `ComposeFarewell`'s godoc, and records
-the farewell path in the repository README.
+`services/api/main.go` prints its greeting and farewell verbatim.
+This plan adds an unexported `shout` helper and has `main` route the greeting through it, so the
+package carries one small emphasis helper both lines can reuse later.
 
 ## Card Index
 
-1 — rename-default-helper — retarget the unexported helper's identifier to `orDefault`
-2 — farewell-doc — note the shared default helper in `ComposeFarewell`'s godoc
-3 — readme-note — record the farewell path in the repository README
+1 — shout-helper — add the unexported `shout` helper
+2 — shout-wiring — route main's greeting through the helper
 
 ## verify:
 
