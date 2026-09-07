@@ -1,7 +1,7 @@
 # Card 2 — Add `ComposeFarewell`
 
 **Create:**
-- `plan:services/api#ComposeFarewell` -> `func ComposeFarewell(name string) string`
+- `services/api#ComposeFarewell`
 
 **Uses:**
 - `services/api#defaultName`

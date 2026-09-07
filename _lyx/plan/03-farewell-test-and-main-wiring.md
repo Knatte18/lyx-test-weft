@@ -5,7 +5,7 @@
 - `services/api#main`
 
 **Uses:**
-- `plan:services/api#ComposeFarewell`
+- `services/api#ComposeFarewell`
 
 **Intent:** Close card 2's gap by giving `ComposeFarewell` both a test and a caller.
 
