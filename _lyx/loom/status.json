@@ -1,11 +1,11 @@
 {
-  "current_producer": "Publish",
+  "current_producer": "Finalize",
   "state": "running",
   "error": "",
   "pause_requested": false,
   "activity": {
-    "now": "Publish",
-    "last": "Publish → stuck",
+    "now": "Finalize",
+    "last": "Publish → done",
     "wait": ""
   },
   "history": [
@@ -122,6 +122,12 @@
       "outcome": "stuck",
       "output": "",
       "at": "2026-09-06T18:21:39Z"
+    },
+    {
+      "producer": "Publish",
+      "outcome": "done",
+      "output": "",
+      "at": "2026-09-07T16:10:36Z"
     }
   ],
   "product": {
