@@ -1,7 +1,7 @@
 {
   "runGuid": "09405913672f55c7cb2ea62fff052f01",
   "planFingerprint": "9055e19baaa80d961dfc214b3611e81b74165dd92540c2c73c75ae8aabca3a08",
-  "currentBatch": 1,
+  "currentBatch": 0,
   "masterStrand": "c141f5bf3e9f1193416d5c086b96c3b7",
   "masterSessionId": "7957c69b-8fc7-4860-ba61-ad131a3a072b",
   "assertedModel": "sonnet",
@@ -12,8 +12,22 @@
       "kind": "fork",
       "spawnedAt": "2026-09-07T16:44:56Z",
       "sessionId": "7957c69b-8fc7-4860-ba61-ad131a3a072b",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done",
+      "digest": {
+        "batch": "01-compose-greeting-rename",
+        "status": "done",
+        "head_sha": "0d26ff078698a53b35602dab01f2ab1c63f3cf09"
+      },
+      "cardShas": [
+        "0d26ff078698a53b35602dab01f2ab1c63f3cf09"
+      ],
+      "forkTranscripts": [
+        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-glyph-rename-format/7957c69b-8fc7-4860-ba61-ad131a3a072b/subagents/agent-a6872946cf87a30c5.jsonl"
+      ]
     }
-  }
+  },
+  "seenForkTranscripts": [
+    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-glyph-rename-format/7957c69b-8fc7-4860-ba61-ad131a3a072b/subagents/agent-a6872946cf87a30c5.jsonl"
+  ]
 }
