@@ -1,0 +1,17 @@
+{
+  "current_producer": "Preflight",
+  "state": "running",
+  "error": "",
+  "pause_requested": false,
+  "activity": {
+    "now": "",
+    "last": "",
+    "wait": ""
+  },
+  "history": [],
+  "product": {
+    "slug": "r4-crash-hub",
+    "parent": "glyph-rename-format",
+    "start_sha": null
+  }
+}
