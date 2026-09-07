@@ -1,12 +1,12 @@
 {
   "current_producer": "Publish",
-  "state": "blocked",
-  "error": "stuck with no OnStuck target",
+  "state": "running",
+  "error": "",
   "pause_requested": false,
   "activity": {
     "now": "Publish",
     "last": "Publish → stuck",
-    "wait": "stuck with no OnStuck target"
+    "wait": ""
   },
   "history": [
     {
