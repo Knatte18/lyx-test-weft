@@ -4,7 +4,7 @@
 - `services/api#ComposeFarewell`
 
 **Uses:**
-- `services/api#defaultName`
+- `services/api#orDefault`
 
 **Intent:** `ComposeFarewell`'s godoc line states what it returns but not that its empty-name
 default is shared with `ComposeGreeting`. Extend the existing godoc comment with one further

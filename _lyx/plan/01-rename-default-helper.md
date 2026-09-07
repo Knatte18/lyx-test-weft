@@ -1,7 +1,7 @@
 # Card 1 — rename-default-helper
 
 **Edit:**
-- `services/api#defaultName`
+- `services/api#orDefault`
 
 **Intent:** The unexported helper is currently spelled `defaultName`, which reads as a noun,
 while every call site spends it as an operator inside `fmt.Sprintf`. Retarget the identifier
