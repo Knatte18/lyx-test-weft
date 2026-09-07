@@ -5,7 +5,7 @@
      Every marker below is a top-level {{.X}} substitution;
      stencil.Fill requires the three original ones non-empty and there are no {{if}}/{{range}} conditionals anywhere in this file (a required marker inside a conditional branch would render silently blank when present-but-empty — see internal/stencil/stencil.go). pattern_directive is the fourth marker,
      and the one optional one: it is filled via stencil.FillOptional and renders as nothing when PATTERN is inactive.
-lyx-stencil: sha256=b2997dd1897f7a9e80c9b073b7ea69ce308e1931de73c7bd497e3afcec58e488 -->
+lyx-stencil: sha256=5ca2a7baad54e6ddcb4aeb5a8bfa4cdfbc791d453f8c5e672b8266fe4146b229 -->
 
 # Plan — read the decision record, write a plan-format flat-card plan
 
@@ -90,7 +90,7 @@ Leave it at `"go"` unless the task is explicitly non-Go.
 
 ### Declaring a symbol that does not exist yet: `plan:` handles
 
-`lyx quarry` can only answer with glyphs for symbols that already exist — it never invents one. When a card creates a brand-new symbol or file, `quarry` has nothing to look up, so you invent a draft placeholder spelling instead: a `plan:` handle, `plan:<unit>#<member>`, where `<unit>` is the new symbol's own repository-relative path.
+`lyx quarry` can only answer with glyphs for symbols that already exist — it never invents one. When a card creates a brand-new symbol or file, `quarry` has nothing to look up, so you invent a draft placeholder spelling instead: a `plan:` handle, `plan:<unit>#<member>`, where `<unit>` is the new symbol's own repository-relative PACKAGE DIRECTORY — never the `.go` file it will live in (`plan:internal/boardcli#RowJSON`, not `plan:internal/boardcli/rowjson.go#RowJSON`; a file-unit member spelling can never resolve, and the validator refuses it as `handle-malformed`).
 
 Write it on the `**Create:**` sub-bullet using the two-field declaration grammar, reusing the same `` `x` -> `y` `` arrow shape a `**Rename:**` pair uses:
 
