@@ -3,7 +3,7 @@
      It is filled by `run`'s engine core via internal/stencil and handed to the shuttle as the Master session's entire instruction set for one whole plan run: the long-lived session that reads the codebase and the plan once, then forks one implementer per execution batch in-session (Claude Code's Agent tool, subagent_type "fork").
      Every marker below is a top-level {{.X}} substitution;
      stencil.Fill requires every marker but pattern_directive non-empty and there are no {{if}}/{{range}} conditionals anywhere in this file (a required marker inside a conditional branch would render silently blank when present-but-empty — see internal/stencil/stencil.go). plan_dir renders hub-relative ("_lyx/plan") in hub mode and absolute (the derived state directory's plan dir) in standalone, and integration_report_path is always rendered with its prose context gating when it matters — both added when the standalone Master proved unable to see a plan it was told about only in hub-relative terms. pattern_directive is the one optional marker: it is filled via stencil.FillOptional and renders as nothing when PATTERN is inactive.
-lyx-stencil: sha256=44b8f3d090d8828a684c12e44e7c8e316e662bde6d8125ffc07039a3a9fd7cc3 -->
+lyx-stencil: sha256=7b55b490df6c36be9ac0e63dcf53a009e4fb63463ec863408e19a346547607ed -->
 
 # Webster Master — read once, fork per batch, judge only the minimal report
 
@@ -136,6 +136,14 @@ If `begin-batch` refuses with `{"plan_drifted": true}`, that means `begin-batch`
 This is NOT a batch outcome for you to work around: you never edit the plan yourself (see "What you never do" below), so there is nothing for you to fix.
 Do not retry the verb and do not try another batch: write `outcome: stuck` to `{{.outcome_path}}` right away, with a `stuck_reason` quoting the refusal's own message verbatim, then stop.
 This is fully resumable later with `lyx webster run` once an operator has looked at the plan — retrying the call yourself only re-runs the same re-resolution against the same tree and refuses the same way.
+
+## A card-not-done refusal ends your run as stuck — do not retry the verb
+
+If `record-batch` refuses with `{"card_not_done": true}`, that means the batch's own mechanical done-checks — run against the worktree's real post-batch tree, immediately before the digest would have been persisted — found the batch's declared work missing: a Create target that still does not resolve, a Delete target that still does, a `plan:` handle that bound to nothing, or a symbol this batch deleted that the remaining plan still references.
+The fork reported done over work that did not land.
+This is NOT a batch outcome for you to work around: the fix is a change to the batch's own target files, and you never edit a target file yourself (see "What you never do" below), so there is nothing for you to fix.
+Do not retry the verb, do not re-fork the batch, and do not begin the next batch (batch N+1 assumes N is committed): write `outcome: stuck` to `{{.outcome_path}}` right away, with a `stuck_reason` quoting the refusal's own message verbatim, then stop.
+The batch is deliberately left non-terminal, so this is fully resumable later with `lyx webster run` once an operator has looked at it — retrying the call yourself only re-runs the same checks against the same tree and refuses the same way.
 
 ## A policy violation ends your run as stuck
 

@@ -5,7 +5,7 @@
      Every marker below is a top-level {{.X}} substitution;
      stencil.Fill requires the three original ones non-empty and there are no {{if}}/{{range}} conditionals anywhere in this file (a required marker inside a conditional branch would render silently blank when present-but-empty — see internal/stencil/stencil.go). pattern_directive is the fourth marker,
      and the one optional one: it is filled via stencil.FillOptional and renders as nothing when PATTERN is inactive.
-lyx-stencil: sha256=5ca2a7baad54e6ddcb4aeb5a8bfa4cdfbc791d453f8c5e672b8266fe4146b229 -->
+lyx-stencil: sha256=b3652aab3f59a68d0ac6a9fa77f21c6060d38ef7f428411d84451144388d8bf8 -->
 
 # Plan — read the decision record, write a plan-format flat-card plan
 
@@ -188,7 +188,13 @@ approved: false
 - `path/to/file.go`
 
 **Intent:** <the change to make, concretely>
+
+**ImpactSummary:** <one line: the blast radius across this card's Edit/Delete targets>
 ```
+
+`**ImpactSummary:**` is in the skeleton because the skeleton's own label is `**Edit:**`, and
+`card-missing-field` blocks an `Edit` or `Delete` card that omits it.
+A card whose only labels are `Create`/`Rename`/`Move`/`Prosa`/`Custom` omits the field entirely.
 
 ## Step 4 — Write `{{.overview_path}}` LAST
 
