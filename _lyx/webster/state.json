@@ -1,7 +1,7 @@
 {
   "runGuid": "95dccea3f3de0032e45885289d91a1d2",
   "planFingerprint": "394b5af75289a57422080fdf46c7221e5f1e53c47c0c694a74dd93fce347d6c4",
-  "currentBatch": 0,
+  "currentBatch": 3,
   "masterStrand": "9d90c46037afe905885ae034fc910a41",
   "masterSessionId": "9096f3d2-ecdc-4962-806b-b6b47bb6224f",
   "assertedModel": "sonnet",
@@ -45,6 +45,15 @@
       "forkTranscripts": [
         "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-r4-crash-hub/9096f3d2-ecdc-4962-806b-b6b47bb6224f/subagents/agent-a60f2156f5ad7dee5.jsonl"
       ]
+    },
+    "3": {
+      "slug": "farewell-test-and-main-wiring",
+      "startSha": "d961780823f68ce1b6f22d6f4420b741854c476b",
+      "kind": "fork",
+      "spawnedAt": "2026-09-07T18:39:10Z",
+      "sessionId": "9096f3d2-ecdc-4962-806b-b6b47bb6224f",
+      "terminal": false,
+      "status": ""
     }
   },
   "seenForkTranscripts": [
