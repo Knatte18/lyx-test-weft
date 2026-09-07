@@ -18,5 +18,15 @@
     "deferred": false,
     "brief": "Pure rename of an existing exported helper to a clearer name",
     "body": "The exported helper `FormatGreeting` in `services/api/main.go` has a name that under-describes what it does — it composes the whole greeting sentence, not merely formats one. Rename the existing exported function `FormatGreeting` to `ComposeGreeting`, updating its call site in `main()` and every reference in its existing table-driven test. This is a PURE RENAME task: no new behavior, no new symbols beyond the renamed one, no signature change. Preserve git history with surgical edits (identifier retargeting only)."
+  },
+  {
+    "id": 2,
+    "slug": "r4-crash-hub",
+    "title": "Add a farewell path alongside ComposeGreeting in services/api",
+    "depends_on": [],
+    "isolated": false,
+    "deferred": false,
+    "brief": "Extract a defaultName helper, add ComposeFarewell, and cover it with a table-driven test.",
+    "body": "`services/api/main.go` currently exposes `ComposeGreeting(name string) string`, which returns `Hello, \u003cname\u003e!` and defaults an empty name to `world`.\n\nAdd a parallel farewell path, in three independently-committable steps, each of which must compile and pass `go test ./...` on its own:\n\n1. Add a new unexported helper `defaultName(name string) string` in `services/api/main.go` that returns `world` when `name` is empty and `name` otherwise, and change `ComposeGreeting` to call it instead of inlining the empty check.\n2. Add a new exported `ComposeFarewell(name string) string` in `services/api/main.go` that returns `Goodbye, \u003cname\u003e!` and uses the same `defaultName` helper.\n3. Extend `services/api/main_test.go` with a table-driven `TestComposeFarewell` covering the same three cases the existing `TestComposeGreeting` covers, and update `main()` to print both the greeting and the farewell.\n\nNo other files change. No new packages, no new files beyond what already exists. Keep every step compiling and independently committable."
   }
 ]
