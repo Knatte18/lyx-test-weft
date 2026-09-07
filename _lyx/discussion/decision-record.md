@@ -96,32 +96,28 @@ invocation.
 behaviour-preserving refactor; step 2 adds an unreferenced-but-exported function (legal in
 Go, no unused-symbol error); step 3 adds its test and the `main()` wiring together.
 
-**C4 — Package stays `package main` with `fmt` as its only import.** No new imports.
+**C4 — Package stays `package main`, and no file gains an import.** `main.go` keeps `fmt` as
+its only import; `main_test.go` keeps `testing` as its only import. Both files are already
+`package main`, so this is a per-file rule, not a one-import-per-package rule.
 
 **C5 — Existing public behaviour is frozen.** `ComposeGreeting("")` returns `"Hello, world!"`
 and `TestComposeGreeting` passes unmodified after every step.
 
 ## Auto-mode assumptions
 
-This session ran autonomously; no operator answered. Every decision above is a self-pick.
-The assumptions behind them:
+This session ran autonomously; no operator answered. Every decision above is a self-pick, and
+none of them carries operator ratification — weigh them accordingly.
 
-- A1 — The brief's three-step split is prescriptive, not a suggestion; it is reproduced
-  verbatim as the commit plan rather than collapsed into one commit.
-- A2 — "the same three cases the existing `TestComposeGreeting` covers" means the same three
-  *inputs*, with the expected strings adjusted from `Hello` to `Goodbye`.
-- A3 — `main()` printing "both the greeting and the farewell" means two separate output
-  lines, not one concatenated line.
-- A4 — The literal `go test ./...` in the brief means "the package's tests pass", not "the
-  fixture must be converted to a Go module".
-- A5 — `world` is the default for the farewell too; the brief's "uses the same `defaultName`
-  helper" leaves no room for a different default.
+The assumptions those self-picks rest on are each already stated normatively above, so they
+are not re-narrated here: the brief's three-step split is prescriptive (D1); "the same three
+cases" means the same three *inputs* with `Hello` swapped for `Goodbye` (D6, and the step-3
+acceptance criteria); "both the greeting and the farewell" means two separate lines (D8); the
+brief's literal `go test ./...` means "the package's tests pass", not "convert the fixture to
+a module" (C2, D9); and `world` is the farewell's default too (D3, D5). The deliberation
+behind each is in `support-log.md`.
 
 ## Open risks
 
-- R1 — A reviewer reading the brief literally may flag that `go test ./...` from the repo
-  root still fails. It fails identically before and after this task; fixing it needs a
-  `go.mod`, which C1 forbids. Flagged, not fixed.
 - R2 — D4 changes `ComposeGreeting`'s body beyond the minimum (it removes the `name = …`
   reassignment as well as the `if`). Behaviour is unchanged and C5 guards it, but the step-1
   diff is two lines larger than a strictly minimal edit.
@@ -166,5 +162,5 @@ Not exhaustive — explore the files yourself.
   `TestComposeGreeting` to copy the shape from.
 - Branch `r4-crash-hub`; its three most recent commits are the sibling greeting task and
   model the `<n>: <slug>` message convention.
-- Run test/gofmt commands from `services/api`, with `GO111MODULE=off` (D9). Plain
-  `go test ./...` at the repo root will fail for reasons unrelated to this change.
+- Run test/gofmt commands from `services/api`, with `GO111MODULE=off` — see D9 for the exact
+  invocation and C2 for why it is needed.
