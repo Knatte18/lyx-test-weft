@@ -1,7 +1,7 @@
 {
   "runGuid": "95dccea3f3de0032e45885289d91a1d2",
   "planFingerprint": "394b5af75289a57422080fdf46c7221e5f1e53c47c0c694a74dd93fce347d6c4",
-  "currentBatch": 3,
+  "currentBatch": 0,
   "masterStrand": "9d90c46037afe905885ae034fc910a41",
   "masterSessionId": "9096f3d2-ecdc-4962-806b-b6b47bb6224f",
   "assertedModel": "sonnet",
@@ -52,12 +52,24 @@
       "kind": "fork",
       "spawnedAt": "2026-09-07T18:39:10Z",
       "sessionId": "9096f3d2-ecdc-4962-806b-b6b47bb6224f",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done",
+      "digest": {
+        "batch": "03-farewell-test-and-main-wiring",
+        "status": "done",
+        "head_sha": "9c7fe621efcfb50e4adfe4111260744d76f55d01"
+      },
+      "cardShas": [
+        "9c7fe621efcfb50e4adfe4111260744d76f55d01"
+      ],
+      "forkTranscripts": [
+        "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-r4-crash-hub/9096f3d2-ecdc-4962-806b-b6b47bb6224f/subagents/agent-a306c3277216a1ede.jsonl"
+      ]
     }
   },
   "seenForkTranscripts": [
     "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-r4-crash-hub/9096f3d2-ecdc-4962-806b-b6b47bb6224f/subagents/agent-a5e95004c318529b0.jsonl",
-    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-r4-crash-hub/9096f3d2-ecdc-4962-806b-b6b47bb6224f/subagents/agent-a60f2156f5ad7dee5.jsonl"
+    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-r4-crash-hub/9096f3d2-ecdc-4962-806b-b6b47bb6224f/subagents/agent-a60f2156f5ad7dee5.jsonl",
+    "/home/knatte/.claude/projects/-home-knatte-Code-lyx-test-HUB-r4-crash-hub/9096f3d2-ecdc-4962-806b-b6b47bb6224f/subagents/agent-a306c3277216a1ede.jsonl"
   ]
 }
