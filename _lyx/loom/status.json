@@ -1,12 +1,12 @@
 {
   "current_producer": "Finalize",
-  "state": "running",
-  "error": "",
+  "state": "failed",
+  "error": "landingshed: Finalize: parse summary artifact: summaryparser: read summary file /home/knatte/Code/lyx-test-HUB/glyph-rename-format/_lyx/webster/summary.md: open /home/knatte/Code/lyx-test-HUB/glyph-rename-format/_lyx/webster/summary.md: no such file or directory",
   "pause_requested": false,
   "activity": {
     "now": "Finalize",
-    "last": "Publish → done",
-    "wait": ""
+    "last": "Finalize → ",
+    "wait": "landingshed: Finalize: parse summary artifact: summaryparser: read summary file /home/knatte/Code/lyx-test-HUB/glyph-rename-format/_lyx/webster/summary.md: open /home/knatte/Code/lyx-test-HUB/glyph-rename-format/_lyx/webster/summary.md: no such file or directory"
   },
   "history": [
     {
@@ -128,6 +128,12 @@
       "outcome": "done",
       "output": "",
       "at": "2026-09-07T16:10:36Z"
+    },
+    {
+      "producer": "Finalize",
+      "outcome": "",
+      "output": "",
+      "at": "2026-09-07T16:10:37Z"
     }
   ],
   "product": {
