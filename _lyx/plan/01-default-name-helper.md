@@ -1,7 +1,7 @@
 # Card 1 — Extract the empty-name default into `defaultName`
 
 **Create:**
-- `plan:services/api#defaultName` -> `func defaultName(name string) string`
+- `services/api#defaultName`
 
 **Edit:**
 - `services/api#ComposeGreeting`

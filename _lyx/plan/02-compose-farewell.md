@@ -4,7 +4,7 @@
 - `plan:services/api#ComposeFarewell` -> `func ComposeFarewell(name string) string`
 
 **Uses:**
-- `plan:services/api#defaultName`
+- `services/api#defaultName`
 
 **Intent:** Add an exported `ComposeFarewell` to `services/api/main.go`, mirroring
 `ComposeGreeting`'s shape point for point: one `string` argument, one `string` return, no
