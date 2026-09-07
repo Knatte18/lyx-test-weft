@@ -1,0 +1,19 @@
+{
+  "runGuid": "95dccea3f3de0032e45885289d91a1d2",
+  "planFingerprint": "f4c7eece7c0740296ae04a734a5ed02b16e0603a9e9d25e868f1021420f4577e",
+  "currentBatch": 1,
+  "masterStrand": "9d90c46037afe905885ae034fc910a41",
+  "masterSessionId": "9096f3d2-ecdc-4962-806b-b6b47bb6224f",
+  "assertedModel": "sonnet",
+  "batches": {
+    "1": {
+      "slug": "default-name-helper",
+      "startSha": "0d26ff078698a53b35602dab01f2ab1c63f3cf09",
+      "kind": "fork",
+      "spawnedAt": "2026-09-07T18:38:11Z",
+      "sessionId": "9096f3d2-ecdc-4962-806b-b6b47bb6224f",
+      "terminal": false,
+      "status": ""
+    }
+  }
+}
