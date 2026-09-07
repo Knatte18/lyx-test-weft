@@ -78,8 +78,10 @@ catches a syntactically broken edit; the grep census proves the rename is total
   codebase. Its file inventory and subpath layout are load-bearing for other
   tests: do not add, move, or delete files.
 - No Go module is defined anywhere in the tree, and none may be introduced.
-- No `CONSTRAINTS.md` exists at the repo root.
 - The Go toolchain available in this environment is go1.26.0.
+- The operator's standing instruction bans `sed`. The identifier is retargeted
+  with the editing tools, occurrence by occurrence; neither `sed` nor any other
+  blanket substitution may be used to apply it.
 - The change is confined to one module boundary: the `services/api` package.
   It touches no other package, and there is no cross-package call graph to
   reason about.
@@ -91,19 +93,14 @@ catches a syntactically broken edit; the grep census proves the rename is total
 This session ran with no operator available, so every decision above is a
 self-pick. The assumptions behind them:
 
-- **A1** — "Every reference in its existing test" is read to include the test
-  function's own name and the identifier inside its format strings, not merely
-  the call expression. A narrower reading would leave the old name visible in
-  the file the brief singles out.
-- **A2** — "No new symbols beyond the renamed one" forbids a compatibility
-  alias, rather than merely discouraging one.
-- **A3** — The doc comment is treated as part of the identifier's surface, so
-  updating its leading word is inside a "pure rename", not a behaviour change.
-- **A4** — Nobody outside this repository imports the symbol. The package is
+- **A1** — Nobody outside this repository imports the symbol. The package is
   `package main` in a fixture repo with no module path, so it is not importable
   by anything.
-- **A5** — Committing the change is the loop owner's job. The deliverable is the
+- **A2** — Committing the change is the loop owner's job. The deliverable is the
   worktree state.
+
+The readings of the brief that the decisions rest on are not repeated here: D1
+through D4 each state theirs inline.
 
 ## Open risks
 
@@ -115,14 +112,15 @@ self-pick. The assumptions behind them:
   string `FormatGreeting` in this fixture, the rename breaks it. Nothing in this
   worktree does, and the board brief commissions the rename, so this is
   recorded rather than mitigated.
-- **R3 (very low)** — A partial rename that still compiles is possible in
-  principle only if some reference lived outside the two Go files. The grep
-  census in the acceptance criteria closes this.
 
 ## Acceptance criteria
 
-1. `grep -rn FormatGreeting` across the worktree, excluding `.git`, returns no
-   matches — in code, comments, test names, and string literals alike.
+1. `grep -rn FormatGreeting services/api` returns no matches — in code,
+   comments, test names, and string literals alike. The census covers the
+   repository's own tracked files; `_lyx/` and `.lyx/` are git-excluded driver
+   state symlinked into the worktree, and the discussion artifacts under them
+   name the old symbol by necessity, so a worktree-wide grep would fail even on
+   a perfect rename.
 2. Every reference that previously named the old helper now names
    `ComposeGreeting`, and the count of references is unchanged: nothing was
    dropped, nothing was duplicated.
@@ -138,20 +136,18 @@ self-pick. The assumptions behind them:
    multi-word name.
 8. The test function is named `TestComposeGreeting`, and its failure messages
    name `ComposeGreeting`.
-9. No `go.mod` or other new file exists in the worktree when the work is done —
-   including no leftover scratch artifacts inside the repository.
+9. No `go.mod` or other new file appears in the repository's tracked inventory
+   when the work is done, and no scratch artifact from D6's verification route
+   is left behind inside it. `_lyx/` and `.lyx/` are git-excluded driver state
+   owned by later phases, and sit outside this criterion exactly as they sit
+   outside criterion 3.
 
 ## Notes for the plan writer
 
-Explore the tree yourself; this is a head start, not an inventory.
+Explore the tree yourself; this is a head start, not an inventory. Recount the
+references fresh rather than trusting any description of them, this one included.
 
-- The rename surface is small — a single-digit number of references, all inside
-  `services/api/`. Recount them fresh rather than trusting that description.
-- References fall into four shapes, and it is easy to fix the first and forget
-  the rest: the declaration, the doc comment's leading word, call expressions,
-  and the identifier as text inside the test's format strings.
-- `go test` and `go vet` will fail in the worktree with a "does not contain main
-  module" setup error. That is the absent `go.mod`, not a defect in the change;
-  see D6 for the verification route.
-- `_lyx/` holds live driver configuration and loom orchestration state. It is
-  read-only to every phase of this task.
+The four reference shapes Scope lists are easy to fix out of order. The
+declaration goes first and reads like the whole job; the identifier sitting as
+plain text inside the test's failure message is the one most easily left behind,
+because nothing about it breaks the build.
