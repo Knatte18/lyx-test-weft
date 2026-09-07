@@ -1,11 +1,11 @@
 {
-  "current_producer": "Discussion-Burler",
+  "current_producer": "Discussion-Bouncer",
   "state": "running",
   "error": "",
   "pause_requested": false,
   "activity": {
-    "now": "Discussion-Burler",
-    "last": "Discussion-Bouncer → stuck",
+    "now": "Discussion-Bouncer",
+    "last": "Discussion-Burler → stuck",
     "wait": ""
   },
   "history": [
@@ -38,6 +38,12 @@
       "outcome": "stuck",
       "output": "",
       "at": "2026-09-07T18:20:55Z"
+    },
+    {
+      "producer": "Discussion-Burler",
+      "outcome": "stuck",
+      "output": "/home/knatte/Code/lyx-test-HUB/r4-crash-hub/.lyx/loom/reviews/discussion/round-1-review.md",
+      "at": "2026-09-07T18:26:55Z"
     }
   ],
   "product": {
