@@ -1,0 +1,19 @@
+{
+  "runGuid": "000ea6ee224619647c50007132d6fa1b",
+  "planFingerprint": "565d1cc2d46ea1d69a1e3bb546c2b57d51a1eb13becc1f95abab4bd2df163f76",
+  "currentBatch": 1,
+  "masterStrand": "3daa8854f21555d6f0d46ce3a825d839",
+  "masterSessionId": "df82a517-61b5-4a1d-9492-d7ec8034d606",
+  "assertedModel": "sonnet",
+  "batches": {
+    "1": {
+      "slug": "smoke-file",
+      "startSha": "861f0bf32ab0638268e05a30840f4872c482fadd",
+      "kind": "fork",
+      "spawnedAt": "2026-09-08T16:58:22Z",
+      "sessionId": "df82a517-61b5-4a1d-9492-d7ec8034d606",
+      "terminal": false,
+      "status": ""
+    }
+  }
+}
