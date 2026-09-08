@@ -1,7 +1,7 @@
 # Card 1 — Add Farewell
 
 **Create:**
-- `plan:internal/greet#Farewell` -> `func Farewell() string`
+- `internal/greet#Farewell`
 
 **Intent:**
 `internal/greet` has a `Hello` greeting and no closing counterpart, so a caller that wants to end a

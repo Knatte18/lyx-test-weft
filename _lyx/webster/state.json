@@ -1,7 +1,7 @@
 {
   "runGuid": "58d0b35a29f6d97b98b2bb2ec1c93b42",
-  "planFingerprint": "7533bb656bd7caed0776d39788c6c0e846416097d67f30f8a1269edd3358b510",
-  "currentBatch": 1,
+  "planFingerprint": "081aa02e09aa1cc9a64a8b756164259319ac3a3b6bffaf37d369fcc190dfba3c",
+  "currentBatch": 0,
   "masterStrand": "ac85aea7ab4b2ca224a0699a047d6fd5",
   "masterSessionId": "95c17de3-6f2f-42d1-b9e8-cf7beebb77ed",
   "assertedModel": "sonnet",
@@ -12,8 +12,22 @@
       "kind": "fork",
       "spawnedAt": "2026-09-08T10:14:25Z",
       "sessionId": "95c17de3-6f2f-42d1-b9e8-cf7beebb77ed",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done",
+      "digest": {
+        "batch": "01-add-farewell",
+        "status": "done",
+        "head_sha": "f3233bbbc5ba5afdaf117ef45780af0a1ceeef5a"
+      },
+      "cardShas": [
+        "f3233bbbc5ba5afdaf117ef45780af0a1ceeef5a"
+      ],
+      "forkTranscripts": [
+        "/home/hanf/.claude/projects/-home-hanf-Code-r5sandbox2-lyx-test-HUB-r5-kill/95c17de3-6f2f-42d1-b9e8-cf7beebb77ed/subagents/agent-a429731e8d95a62cd.jsonl"
+      ]
     }
-  }
+  },
+  "seenForkTranscripts": [
+    "/home/hanf/.claude/projects/-home-hanf-Code-r5sandbox2-lyx-test-HUB-r5-kill/95c17de3-6f2f-42d1-b9e8-cf7beebb77ed/subagents/agent-a429731e8d95a62cd.jsonl"
+  ]
 }
