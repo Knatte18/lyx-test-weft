@@ -1,7 +1,7 @@
 {
   "runGuid": "58d0b35a29f6d97b98b2bb2ec1c93b42",
   "planFingerprint": "081aa02e09aa1cc9a64a8b756164259319ac3a3b6bffaf37d369fcc190dfba3c",
-  "currentBatch": 2,
+  "currentBatch": 0,
   "masterStrand": "ac85aea7ab4b2ca224a0699a047d6fd5",
   "masterSessionId": "95c17de3-6f2f-42d1-b9e8-cf7beebb77ed",
   "assertedModel": "sonnet",
@@ -32,11 +32,23 @@
       "kind": "fork",
       "spawnedAt": "2026-09-08T10:14:56Z",
       "sessionId": "95c17de3-6f2f-42d1-b9e8-cf7beebb77ed",
-      "terminal": false,
-      "status": ""
+      "terminal": true,
+      "status": "done",
+      "digest": {
+        "batch": "02-hello-mentions-farewell",
+        "status": "done",
+        "head_sha": "c6bc402ab10d47c5fa5228968b3ea4945618b9f6"
+      },
+      "cardShas": [
+        "c6bc402ab10d47c5fa5228968b3ea4945618b9f6"
+      ],
+      "forkTranscripts": [
+        "/home/hanf/.claude/projects/-home-hanf-Code-r5sandbox2-lyx-test-HUB-r5-kill/95c17de3-6f2f-42d1-b9e8-cf7beebb77ed/subagents/agent-a0dd65e3a5141c48d.jsonl"
+      ]
     }
   },
   "seenForkTranscripts": [
-    "/home/hanf/.claude/projects/-home-hanf-Code-r5sandbox2-lyx-test-HUB-r5-kill/95c17de3-6f2f-42d1-b9e8-cf7beebb77ed/subagents/agent-a429731e8d95a62cd.jsonl"
+    "/home/hanf/.claude/projects/-home-hanf-Code-r5sandbox2-lyx-test-HUB-r5-kill/95c17de3-6f2f-42d1-b9e8-cf7beebb77ed/subagents/agent-a429731e8d95a62cd.jsonl",
+    "/home/hanf/.claude/projects/-home-hanf-Code-r5sandbox2-lyx-test-HUB-r5-kill/95c17de3-6f2f-42d1-b9e8-cf7beebb77ed/subagents/agent-a0dd65e3a5141c48d.jsonl"
   ]
 }
