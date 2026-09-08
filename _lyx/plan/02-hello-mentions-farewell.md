@@ -4,7 +4,7 @@
 - `internal/greet#Hello`
 
 **Uses:**
-- `plan:internal/greet#Farewell`
+- `internal/greet#Farewell`
 
 **Intent:**
 Once `Farewell` exists, `Hello`'s own doc comment should point a reader at it, so the pair is
