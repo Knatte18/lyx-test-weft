@@ -1,11 +1,11 @@
 {
-  "current_producer": "Plan-Write",
+  "current_producer": "Plan-Validate",
   "state": "running",
   "error": "",
   "pause_requested": false,
   "activity": {
-    "now": "Plan-Write",
-    "last": "Discussion-Bouncer → done",
+    "now": "Plan-Validate",
+    "last": "Plan-Write → done",
     "wait": ""
   },
   "history": [
@@ -74,6 +74,12 @@
       "outcome": "done",
       "output": "/home/knatte/Code/lyx-test-HUB/dummy-r2-greet/.lyx/loom/reviews/discussion/round-1-bouncer-ledger.md",
       "at": "2026-09-13T14:39:44Z"
+    },
+    {
+      "producer": "Plan-Write",
+      "outcome": "done",
+      "output": "/home/knatte/Code/lyx-test-HUB/dummy-r2-greet/_lyx/plan/00-overview.md",
+      "at": "2026-09-13T14:41:47Z"
     }
   ],
   "product": {
