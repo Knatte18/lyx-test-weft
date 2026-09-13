@@ -5,11 +5,14 @@
      (prompt.go) via internal/stencil, then read by the agent only when the round orchestrator
      (burler-template-round-orchestrator.md) directs it here. target, fasit, rubric, and tool_use_rules are top-level {{.X}} substitutions;
      stencil.Fill requires all four non-empty and there are no {{if}}/{{range}} conditionals anywhere in this file (a required marker inside a conditional branch would render silently blank when present-but-empty — see internal/stencil/stencil.go). pattern_directive is the fifth marker,
-     and the one optional one: it is filled via stencil.FillOptional and renders as nothing when PATTERN is inactive.
-     It stays at the top level, before the first work heading, so its optional-blank semantics hold.
-lyx-stencil: sha256=0123d1b75f97ea073fe726ffa5caa19907d95458cc77faf47be0a64c27910a3c -->
+     and friction_directive is the sixth: both are optional, both filled via stencil.FillOptional, and
+     both render as nothing when their respective feature is inactive (PATTERN for pattern_directive,
+     Tier 2 for friction_directive).
+     They stay at the top level, before the first work heading, so their optional-blank semantics hold.
+lyx-stencil: sha256=45aa4c0af84c1178d59c14f499f885bbe007f607ee9c017149506ecaae98fd69 -->
 
 {{.pattern_directive}}
+{{.friction_directive}}
 ## What to review (the target)
 
 {{.target}}

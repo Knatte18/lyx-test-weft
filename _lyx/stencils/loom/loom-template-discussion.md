@@ -5,9 +5,9 @@
      loomengine.DiscussionSpec wraps the filled result into a shuttleengine.Spec,
      which shedadapters.SingleLLMProducer drives through the shuttle seam as recipe row 3.
      Every marker below is a top-level {{.X}} substitution;
-     stencil.Fill requires all four non-empty and there are no {{if}}/{{range}} conditionals anywhere in this file (a required marker inside a conditional branch would render silently blank when present-but-empty — see internal/stencil/stencil.go).
+     stencil.FillOptional requires the four original markers non-empty and there are no {{if}}/{{range}} conditionals anywhere in this file (a required marker inside a conditional branch would render silently blank when present-but-empty — see internal/stencil/stencil.go). friction_directive is the fifth marker, and the one optional one: it is filled via stencil.FillOptional and renders as nothing when Tier 2 is off.
      The literal `{` / `}` characters around {{.slug}} in the board-read example below are ordinary JSON punctuation, not template syntax — only `{{` begins a template action.
-lyx-stencil: sha256=b7ba682781c6c954752987d2582668154b201f21f83d83ac9409f86d0a399adb -->
+lyx-stencil: sha256=593a4a6cf98f8d9ab75016885fff594f8d08accd6d986ccd5c4686051211c1f3 -->
 
 # Discussion — interview, then write the decision record
 
@@ -24,6 +24,7 @@ Before doing anything else, load two scribe skills, in this order:
 The order matters: `scribe:conversation` builds on `scribe:prose`.
 Both loads are best-effort — if a skill is unavailable, continue without it rather than treating an unresolvable skill name as an error.
 
+{{.friction_directive}}
 ## Step 1 — Read the task from the board
 
 Before anything else, read this task's board entry:

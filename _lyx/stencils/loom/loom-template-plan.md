@@ -3,9 +3,8 @@
      and read from there at call time by composePlanPrompt (plan.go) via internal/stencil, then handed
      to shuttle as the plan agent's entire instruction set.
      Every marker below is a top-level {{.X}} substitution;
-     stencil.Fill requires the three original ones non-empty and there are no {{if}}/{{range}} conditionals anywhere in this file (a required marker inside a conditional branch would render silently blank when present-but-empty — see internal/stencil/stencil.go). pattern_directive is the fourth marker,
-     and the one optional one: it is filled via stencil.FillOptional and renders as nothing when PATTERN is inactive.
-lyx-stencil: sha256=b3652aab3f59a68d0ac6a9fa77f21c6060d38ef7f428411d84451144388d8bf8 -->
+     stencil.FillOptional requires the three original ones non-empty and there are no {{if}}/{{range}} conditionals anywhere in this file (a required marker inside a conditional branch would render silently blank when present-but-empty — see internal/stencil/stencil.go). pattern_directive and friction_directive are the two optional markers: each is filled via stencil.FillOptional and renders as nothing when its own tier is inactive (PATTERN for pattern_directive, Tier 2 for friction_directive).
+lyx-stencil: sha256=2f3a8ac683303988f52b4b8fb74869cca3342e3cb7d0fd019fa7c279d91971ad -->
 
 # Plan — read the decision record, write a plan-format flat-card plan
 
@@ -24,6 +23,7 @@ Before doing anything else, load two scribe skills, in this order:
 Both loads are best-effort — if a skill is unavailable, continue without it rather than treating an unresolvable skill name as an error.
 
 {{.pattern_directive}}
+{{.friction_directive}}
 ## Step 1 — Read the decision record
 
 Read `{{.decision_record_path}}`.
