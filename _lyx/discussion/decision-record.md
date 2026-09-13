@@ -43,7 +43,6 @@ Out:
 
 - This session ran without an operator; all decisions above were made by best judgment per the task brief and are logged as auto-picks in the support log's Question ledger.
 - No `CONSTRAINTS.md` exists in the repo, so no project-wide constraints apply beyond what's stated in the task brief.
-- No prior Go module exists in this repo; the plan writer should confirm the chosen module name/path against the Go toolchain version present in the target environment.
 
 ## Open risks
 
@@ -61,5 +60,5 @@ Out:
 
 ## Notes for the plan writer
 
-- Repo currently has no `go.mod`; plan should include creating one before `go build`/`go test` will work.
+- See Open risks for the missing-`go.mod` risk; plan should include creating one before `go build`/`go test` will work.
 - `services/api/main.go` is presently a one-line stub (`package main` + empty `func main() {}`); it needs both the new function and an updated `main` body.
