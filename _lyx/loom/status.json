@@ -1,14 +1,21 @@
 {
   "current_producer": "Preflight",
-  "state": "running",
-  "error": "",
+  "state": "blocked",
+  "error": "stuck with no OnStuck target",
   "pause_requested": false,
   "activity": {
-    "now": "",
-    "last": "",
-    "wait": ""
+    "now": "Preflight",
+    "last": "Preflight → stuck",
+    "wait": "stuck with no OnStuck target"
   },
-  "history": [],
+  "history": [
+    {
+      "producer": "Preflight",
+      "outcome": "stuck",
+      "output": "",
+      "at": "2026-09-13T14:34:57Z"
+    }
+  ],
   "product": {
     "slug": "dummy-r2-greet",
     "parent": "main",
