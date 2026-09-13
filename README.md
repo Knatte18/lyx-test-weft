@@ -16,3 +16,8 @@ Pure rename of an existing exported helper to a clearer name
 [r4-crash-hub](design-r4-crash-hub.md)
 
 Extract a defaultName helper, add ComposeFarewell, and cover it with a table-driven test.
+
+## **#003:** Add a ComposeGreeting helper with default-name handling in services/api [A]
+[dummy-r2-greet](design-dummy-r2-greet.md)
+
+Extend the FormatGreeting helper in services/api with default-name handling and a unit test.
