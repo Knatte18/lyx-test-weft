@@ -1,0 +1,19 @@
+{
+  "runGuid": "740af991beefdacf05add466a518a7c7",
+  "planFingerprint": "056da7915eb5a9b19cbc14e51a08cb6182873c227339f95f5d19bfeb731fb79e",
+  "currentBatch": 1,
+  "masterStrand": "a24445f875894bbb255251a2b7cc3254",
+  "masterSessionId": "534da60c-9d9f-4215-833f-2a9bd65fa28e",
+  "assertedModel": "sonnet",
+  "batches": {
+    "1": {
+      "slug": "go-mod",
+      "startSha": "861f0bf32ab0638268e05a30840f4872c482fadd",
+      "kind": "fork",
+      "spawnedAt": "2026-09-13T14:47:44Z",
+      "sessionId": "534da60c-9d9f-4215-833f-2a9bd65fa28e",
+      "terminal": false,
+      "status": ""
+    }
+  }
+}
